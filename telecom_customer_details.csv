@@ -1,0 +1,1001 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,Tenure (months),PhoneService,InternetService,MonthlyCharges,TotalCharges,Churn,Contract Type
+0000-PQRS,Female,Yes,Yes,No,55,Yes,No,30.87,1697.85,No,Month-to-Month
+0001-TUV,Female,No,Yes,No,26,No,Fiber Optic,118.13,3071.38,No,Two Year
+0002-LMNO,Female,Yes,Yes,Yes,6,No,Fiber Optic,58.16,348.96,Yes,Two Year
+0003-TUV,Female,No,Yes,No,4,No,No,97.52,390.08,Yes,Two Year
+0004-TUV,Female,Yes,No,No,29,No,Fiber Optic,54.26,1573.54,Yes,Two Year
+0005-WXYZ,Male,Yes,Yes,Yes,59,No,No,82.77,4883.43,Yes,Two Year
+0006-LMNO,Female,Yes,No,No,17,Yes,No,39.2,666.4,No,Two Year
+0007-LMNO,Male,Yes,Yes,Yes,43,Yes,DSL,34.6,1487.8,No,One Year
+0008-LMNO,Female,No,Yes,Yes,66,Yes,DSL,113.81,7511.46,Yes,One Year
+0009-TUV,Male,Yes,No,Yes,34,No,No,111.76,3799.84,Yes,One Year
+0010-PQRS,Female,No,Yes,Yes,8,No,No,108.75,870.0,Yes,Month-to-Month
+0011-LMNO,Male,Yes,No,No,13,No,No,82.54,1073.02,Yes,Month-to-Month
+0012-TUV,Female,Yes,No,No,8,No,No,100.83,806.64,Yes,One Year
+0013-WXYZ,Male,Yes,Yes,No,65,Yes,No,26.9,1748.5,No,Month-to-Month
+0014-PQRS,Female,No,No,Yes,43,Yes,No,53.48,2299.64,No,Month-to-Month
+0015-WXYZ,Male,Yes,No,No,39,No,Fiber Optic,51.37,2003.43,Yes,Two Year
+0016-PQRS,Female,No,Yes,No,59,No,No,83.56,4930.04,Yes,Two Year
+0017-TUV,Male,No,No,Yes,44,Yes,Fiber Optic,55.6,2446.4,Yes,Month-to-Month
+0018-ABCD,Male,No,Yes,Yes,9,No,Fiber Optic,34.85,313.65,No,Month-to-Month
+0019-PQRS,Female,No,Yes,No,37,No,No,79.65,2947.05,No,One Year
+0020-WXYZ,Female,No,Yes,Yes,36,No,No,101.44,3651.84,No,Month-to-Month
+0021-TUV,Male,No,Yes,Yes,28,Yes,Fiber Optic,58.21,1629.88,Yes,Two Year
+0022-PQRS,Female,No,No,Yes,42,Yes,Fiber Optic,33.23,1395.66,No,Month-to-Month
+0023-ABCD,Male,No,Yes,Yes,43,No,No,39.67,1705.81,Yes,One Year
+0024-ABCD,Male,No,Yes,No,42,Yes,No,43.75,1837.5,No,Two Year
+0025-LMNO,Male,Yes,No,Yes,66,No,Fiber Optic,49.99,3299.34,No,Two Year
+0026-LMNO,Female,Yes,Yes,Yes,55,No,Fiber Optic,84.28,4635.4,No,Two Year
+0027-WXYZ,Male,Yes,Yes,Yes,48,Yes,Fiber Optic,80.09,3844.32,Yes,Two Year
+0028-PQRS,Male,Yes,No,Yes,22,No,DSL,89.61,1971.42,Yes,Month-to-Month
+0029-PQRS,Female,Yes,No,Yes,27,No,Fiber Optic,56.25,1518.75,No,One Year
+0030-LMNO,Female,No,No,Yes,67,Yes,DSL,102.4,6860.8,Yes,Month-to-Month
+0031-PQRS,Female,No,No,Yes,13,No,No,40.41,525.33,Yes,Month-to-Month
+0032-PQRS,Female,No,No,Yes,45,No,No,66.9,3010.5,Yes,Two Year
+0033-ABCD,Male,No,No,No,10,No,Fiber Optic,100.09,1000.9,Yes,One Year
+0034-LMNO,Male,No,No,Yes,9,Yes,No,38.02,342.18,Yes,Two Year
+0035-TUV,Male,No,Yes,No,54,No,No,30.99,1673.46,Yes,Month-to-Month
+0036-LMNO,Male,No,No,Yes,27,Yes,No,108.37,2925.99,Yes,Month-to-Month
+0037-TUV,Female,Yes,No,Yes,34,No,No,54.29,1845.86,No,Two Year
+0038-ABCD,Male,Yes,No,Yes,1,No,DSL,88.39,88.39,Yes,Month-to-Month
+0039-WXYZ,Male,Yes,Yes,Yes,32,No,DSL,22.53,720.96,Yes,Month-to-Month
+0040-PQRS,Female,Yes,Yes,No,71,No,Fiber Optic,89.0,6319.0,No,Two Year
+0041-ABCD,Male,No,No,Yes,67,Yes,Fiber Optic,51.61,3457.87,No,Month-to-Month
+0042-PQRS,Male,No,No,Yes,20,Yes,Fiber Optic,25.57,511.4,No,One Year
+0043-WXYZ,Male,No,No,No,35,No,No,80.98,2834.3,No,Two Year
+0044-WXYZ,Male,Yes,Yes,No,17,No,No,44.08,749.36,Yes,One Year
+0045-ABCD,Male,No,Yes,Yes,18,No,DSL,58.68,1056.24,No,Month-to-Month
+0046-WXYZ,Male,No,No,No,45,No,DSL,28.06,1262.7,No,Month-to-Month
+0047-TUV,Female,No,Yes,No,53,No,Fiber Optic,34.72,1840.16,Yes,Two Year
+0048-WXYZ,Female,Yes,No,No,68,No,DSL,49.8,3386.4,Yes,Month-to-Month
+0049-PQRS,Male,No,Yes,Yes,65,No,DSL,28.98,1883.7,Yes,Two Year
+0050-PQRS,Male,Yes,Yes,Yes,1,No,DSL,111.08,111.08,No,Two Year
+0051-PQRS,Female,Yes,No,Yes,58,Yes,DSL,20.6,1194.8,Yes,Two Year
+0052-PQRS,Male,Yes,No,No,26,Yes,DSL,68.39,1778.14,No,Two Year
+0053-TUV,Male,Yes,No,Yes,20,Yes,Fiber Optic,32.32,646.4,Yes,Two Year
+0054-LMNO,Male,No,No,No,10,No,Fiber Optic,50.77,507.7,Yes,One Year
+0055-ABCD,Female,Yes,Yes,Yes,59,No,DSL,112.61,6643.99,No,Two Year
+0056-PQRS,Male,Yes,Yes,Yes,41,No,Fiber Optic,36.17,1482.97,Yes,One Year
+0057-WXYZ,Female,No,Yes,No,5,Yes,No,116.58,582.9,Yes,Month-to-Month
+0058-PQRS,Male,No,No,Yes,65,No,DSL,40.58,2637.7,Yes,Two Year
+0059-WXYZ,Female,Yes,Yes,No,17,Yes,No,94.16,1600.72,Yes,Month-to-Month
+0060-WXYZ,Female,No,No,No,22,No,Fiber Optic,74.67,1642.74,Yes,Two Year
+0061-PQRS,Male,Yes,Yes,Yes,41,Yes,Fiber Optic,108.45,4446.45,No,One Year
+0062-TUV,Female,Yes,No,No,68,Yes,No,75.4,5127.2,No,One Year
+0063-WXYZ,Male,Yes,No,Yes,69,Yes,Fiber Optic,73.46,5068.74,Yes,One Year
+0064-WXYZ,Female,Yes,Yes,Yes,11,No,DSL,39.55,435.05,No,Month-to-Month
+0065-PQRS,Male,No,No,No,56,Yes,No,36.62,2050.72,No,Two Year
+0066-WXYZ,Male,Yes,No,Yes,51,No,DSL,111.65,5694.15,No,Month-to-Month
+0067-WXYZ,Female,No,Yes,No,21,No,No,52.78,1108.38,Yes,One Year
+0068-PQRS,Male,No,No,Yes,26,No,Fiber Optic,57.21,1487.46,Yes,Month-to-Month
+0069-PQRS,Male,No,No,Yes,19,No,No,95.98,1823.62,Yes,One Year
+0070-ABCD,Female,No,No,Yes,60,No,No,53.88,3232.8,No,One Year
+0071-TUV,Male,Yes,Yes,Yes,71,Yes,DSL,115.21,8179.91,No,One Year
+0072-TUV,Male,No,Yes,Yes,47,No,Fiber Optic,93.79,4408.13,Yes,Two Year
+0073-WXYZ,Female,Yes,No,No,71,No,DSL,79.74,5661.54,Yes,Two Year
+0074-TUV,Female,No,Yes,No,26,No,Fiber Optic,108.09,2810.34,No,One Year
+0075-WXYZ,Male,No,No,No,40,No,DSL,24.96,998.4,No,Month-to-Month
+0076-ABCD,Male,Yes,No,No,5,No,No,45.71,228.55,Yes,Month-to-Month
+0077-PQRS,Female,Yes,No,No,21,Yes,DSL,66.5,1396.5,No,Two Year
+0078-PQRS,Female,Yes,No,No,4,Yes,Fiber Optic,42.7,170.8,No,One Year
+0079-PQRS,Male,No,No,Yes,23,No,Fiber Optic,94.39,2170.97,No,Month-to-Month
+0080-TUV,Female,No,Yes,Yes,15,Yes,No,111.92,1678.8,No,One Year
+0081-ABCD,Male,Yes,No,No,8,Yes,Fiber Optic,62.38,499.04,No,Month-to-Month
+0082-TUV,Male,Yes,Yes,No,41,No,DSL,54.21,2222.61,No,Two Year
+0083-TUV,Male,Yes,Yes,Yes,19,Yes,No,116.16,2207.04,No,One Year
+0084-ABCD,Male,Yes,No,Yes,46,No,Fiber Optic,64.49,2966.54,Yes,One Year
+0085-ABCD,Male,No,No,Yes,28,Yes,Fiber Optic,68.9,1929.2,Yes,Month-to-Month
+0086-ABCD,Female,Yes,Yes,No,68,Yes,DSL,55.16,3750.88,No,Month-to-Month
+0087-ABCD,Female,Yes,Yes,No,15,Yes,DSL,110.95,1664.25,No,Month-to-Month
+0088-PQRS,Female,Yes,Yes,No,37,No,No,76.9,2845.3,No,One Year
+0089-LMNO,Female,Yes,No,Yes,1,Yes,Fiber Optic,96.22,96.22,Yes,Two Year
+0090-LMNO,Male,No,Yes,Yes,67,Yes,DSL,101.18,6779.06,Yes,Two Year
+0091-ABCD,Male,Yes,No,No,24,No,No,54.18,1300.32,No,Month-to-Month
+0092-LMNO,Male,No,No,No,27,No,Fiber Optic,63.37,1710.99,Yes,Two Year
+0093-LMNO,Male,Yes,No,Yes,40,Yes,Fiber Optic,104.85,4194.0,No,Month-to-Month
+0094-ABCD,Female,Yes,Yes,Yes,63,No,No,56.33,3548.79,No,Two Year
+0095-LMNO,Male,No,No,Yes,61,Yes,No,99.39,6062.79,No,One Year
+0096-TUV,Male,Yes,No,Yes,36,Yes,DSL,114.1,4107.6,No,Month-to-Month
+0097-WXYZ,Female,No,No,No,24,No,Fiber Optic,82.32,1975.68,No,Two Year
+0098-WXYZ,Female,No,No,Yes,24,No,Fiber Optic,94.16,2259.84,No,One Year
+0099-ABCD,Female,Yes,No,Yes,4,No,Fiber Optic,100.51,402.04,No,Two Year
+0100-PQRS,Female,No,Yes,Yes,67,Yes,No,104.5,7001.5,Yes,One Year
+0101-ABCD,Male,No,No,No,34,No,DSL,59.51,2023.34,No,One Year
+0102-PQRS,Male,No,No,No,57,Yes,Fiber Optic,25.13,1432.41,Yes,Two Year
+0103-WXYZ,Female,No,Yes,Yes,49,No,No,60.19,2949.31,No,Two Year
+0104-ABCD,Male,No,No,Yes,53,Yes,Fiber Optic,87.38,4631.14,No,One Year
+0105-TUV,Male,No,Yes,Yes,23,No,DSL,65.04,1495.92,Yes,One Year
+0106-LMNO,Male,No,No,No,69,Yes,Fiber Optic,94.9,6548.1,Yes,One Year
+0107-PQRS,Female,No,Yes,No,53,No,DSL,55.7,2952.1,No,Month-to-Month
+0108-LMNO,Male,Yes,Yes,No,62,Yes,DSL,83.47,5175.14,Yes,One Year
+0109-LMNO,Female,Yes,No,Yes,41,No,Fiber Optic,38.64,1584.24,No,Month-to-Month
+0110-ABCD,Male,No,No,No,57,No,Fiber Optic,94.94,5411.58,No,One Year
+0111-LMNO,Male,Yes,No,Yes,60,Yes,DSL,74.57,4474.2,Yes,Month-to-Month
+0112-TUV,Male,No,Yes,Yes,54,No,No,40.41,2182.14,Yes,One Year
+0113-LMNO,Female,No,Yes,Yes,70,Yes,DSL,49.19,3443.3,Yes,One Year
+0114-ABCD,Male,Yes,Yes,No,57,Yes,Fiber Optic,94.86,5407.02,Yes,One Year
+0115-TUV,Female,No,No,Yes,10,No,Fiber Optic,68.26,682.6,No,Two Year
+0116-WXYZ,Female,No,Yes,No,40,Yes,No,41.6,1664.0,Yes,Two Year
+0117-LMNO,Female,No,Yes,No,7,No,DSL,116.73,817.11,Yes,One Year
+0118-ABCD,Male,No,No,Yes,38,No,DSL,91.51,3477.38,Yes,Month-to-Month
+0119-WXYZ,Male,Yes,Yes,Yes,61,Yes,DSL,115.71,7058.31,Yes,Month-to-Month
+0120-WXYZ,Male,No,Yes,No,3,No,Fiber Optic,62.71,188.13,Yes,One Year
+0121-PQRS,Male,No,No,Yes,51,Yes,DSL,67.51,3443.01,No,Two Year
+0122-TUV,Female,No,Yes,No,47,Yes,No,109.8,5160.6,No,Month-to-Month
+0123-LMNO,Female,Yes,No,Yes,68,No,Fiber Optic,72.5,4930.0,Yes,Two Year
+0124-ABCD,Female,No,No,No,38,No,Fiber Optic,90.73,3447.74,Yes,Month-to-Month
+0125-PQRS,Male,Yes,No,No,36,Yes,DSL,45.22,1627.92,No,One Year
+0126-TUV,Female,Yes,No,No,41,Yes,No,64.67,2651.47,Yes,Two Year
+0127-PQRS,Male,No,No,No,69,No,Fiber Optic,32.34,2231.46,No,Month-to-Month
+0128-TUV,Female,No,Yes,Yes,13,No,Fiber Optic,40.6,527.8,No,One Year
+0129-TUV,Male,Yes,Yes,Yes,58,No,DSL,20.09,1165.22,Yes,One Year
+0130-LMNO,Male,No,No,No,50,No,DSL,23.93,1196.5,No,One Year
+0131-TUV,Female,Yes,No,No,30,Yes,No,117.73,3531.9,Yes,Two Year
+0132-PQRS,Female,Yes,Yes,Yes,62,No,DSL,44.24,2742.88,Yes,Two Year
+0133-TUV,Female,No,No,Yes,25,Yes,No,86.33,2158.25,No,One Year
+0134-LMNO,Female,No,No,Yes,27,Yes,Fiber Optic,103.91,2805.57,No,Two Year
+0135-LMNO,Male,Yes,No,Yes,51,No,No,75.07,3828.57,Yes,Month-to-Month
+0136-PQRS,Female,Yes,Yes,Yes,57,Yes,No,35.31,2012.67,No,One Year
+0137-WXYZ,Female,Yes,Yes,Yes,47,No,No,92.81,4362.07,Yes,One Year
+0138-WXYZ,Female,Yes,No,No,39,Yes,Fiber Optic,80.03,3121.17,No,Two Year
+0139-TUV,Male,No,No,Yes,16,No,DSL,93.13,1490.08,No,One Year
+0140-ABCD,Male,No,Yes,Yes,22,Yes,Fiber Optic,96.97,2133.34,Yes,Month-to-Month
+0141-TUV,Female,No,Yes,No,54,Yes,DSL,117.54,6347.16,Yes,Two Year
+0142-PQRS,Male,No,No,Yes,21,No,No,77.36,1624.56,Yes,Two Year
+0143-PQRS,Female,No,No,Yes,16,No,No,54.16,866.56,No,One Year
+0144-PQRS,Male,Yes,Yes,Yes,59,Yes,No,84.85,5006.15,Yes,One Year
+0145-PQRS,Male,No,Yes,Yes,31,Yes,No,26.84,832.04,Yes,One Year
+0146-PQRS,Male,No,Yes,Yes,42,No,No,109.74,4609.08,No,Two Year
+0147-LMNO,Male,No,No,No,32,Yes,DSL,31.94,1022.08,No,One Year
+0148-WXYZ,Female,No,Yes,Yes,59,No,DSL,52.78,3114.02,Yes,Month-to-Month
+0149-PQRS,Female,No,No,No,34,Yes,No,101.57,3453.38,Yes,One Year
+0150-ABCD,Female,Yes,Yes,No,9,No,Fiber Optic,79.73,717.57,Yes,One Year
+0151-ABCD,Male,Yes,Yes,Yes,11,Yes,Fiber Optic,59.36,652.96,Yes,Two Year
+0152-ABCD,Female,Yes,Yes,No,10,No,No,67.34,673.4,No,One Year
+0153-ABCD,Female,No,Yes,Yes,17,No,DSL,105.45,1792.65,No,Two Year
+0154-LMNO,Female,Yes,No,No,68,Yes,Fiber Optic,54.0,3672.0,Yes,One Year
+0155-ABCD,Male,Yes,No,No,48,No,Fiber Optic,106.96,5134.08,Yes,Month-to-Month
+0156-PQRS,Male,No,Yes,Yes,52,Yes,Fiber Optic,28.81,1498.12,Yes,Month-to-Month
+0157-TUV,Male,No,No,Yes,25,No,No,97.68,2442.0,No,Two Year
+0158-ABCD,Female,No,Yes,Yes,21,No,Fiber Optic,104.75,2199.75,Yes,Two Year
+0159-LMNO,Female,Yes,Yes,Yes,65,No,Fiber Optic,38.18,2481.7,Yes,One Year
+0160-LMNO,Female,Yes,Yes,Yes,63,Yes,Fiber Optic,63.03,3970.89,No,One Year
+0161-ABCD,Male,No,Yes,No,51,No,Fiber Optic,36.55,1864.05,No,Month-to-Month
+0162-TUV,Male,No,No,No,36,Yes,DSL,90.66,3263.76,Yes,One Year
+0163-ABCD,Female,Yes,Yes,No,66,No,No,73.53,4852.98,Yes,Month-to-Month
+0164-LMNO,Male,Yes,Yes,No,15,Yes,No,83.53,1252.95,No,Two Year
+0165-WXYZ,Male,No,No,No,39,Yes,DSL,39.65,1546.35,Yes,One Year
+0166-PQRS,Male,No,Yes,No,70,Yes,DSL,41.17,2881.9,Yes,Two Year
+0167-LMNO,Male,Yes,Yes,No,1,No,No,24.15,24.15,No,One Year
+0168-ABCD,Female,No,Yes,Yes,23,Yes,Fiber Optic,52.21,1200.83,No,Month-to-Month
+0169-PQRS,Male,Yes,No,Yes,39,No,Fiber Optic,75.97,2962.83,No,Two Year
+0170-ABCD,Male,Yes,Yes,No,57,Yes,No,105.79,6030.03,Yes,Two Year
+0171-ABCD,Male,Yes,No,No,34,Yes,Fiber Optic,86.69,2947.46,No,One Year
+0172-WXYZ,Male,Yes,Yes,Yes,41,Yes,DSL,63.54,2605.14,No,Two Year
+0173-PQRS,Female,No,Yes,Yes,13,Yes,Fiber Optic,115.31,1499.03,Yes,Month-to-Month
+0174-PQRS,Female,No,No,Yes,70,No,Fiber Optic,91.92,6434.4,Yes,Two Year
+0175-WXYZ,Male,Yes,Yes,Yes,6,Yes,Fiber Optic,113.02,678.12,No,Two Year
+0176-LMNO,Male,Yes,Yes,No,52,Yes,No,72.76,3783.52,No,One Year
+0177-ABCD,Male,Yes,No,Yes,3,No,DSL,45.89,137.67,Yes,Two Year
+0178-TUV,Male,Yes,No,No,63,Yes,Fiber Optic,25.28,1592.64,Yes,One Year
+0179-ABCD,Male,Yes,No,No,49,Yes,No,92.61,4537.89,No,One Year
+0180-ABCD,Male,No,No,No,47,Yes,Fiber Optic,32.13,1510.11,No,Two Year
+0181-LMNO,Female,No,No,Yes,55,Yes,DSL,50.28,2765.4,Yes,Month-to-Month
+0182-ABCD,Male,No,Yes,Yes,64,No,Fiber Optic,73.25,4688.0,No,One Year
+0183-WXYZ,Female,No,No,No,65,No,DSL,76.44,4968.6,Yes,Two Year
+0184-WXYZ,Female,Yes,Yes,No,67,Yes,Fiber Optic,80.06,5364.02,No,One Year
+0185-PQRS,Male,Yes,Yes,No,15,No,DSL,36.63,549.45,Yes,Month-to-Month
+0186-TUV,Female,Yes,Yes,Yes,32,No,Fiber Optic,57.97,1855.04,Yes,Month-to-Month
+0187-ABCD,Female,Yes,No,No,68,Yes,DSL,81.72,5556.96,No,One Year
+0188-ABCD,Female,Yes,No,Yes,18,No,Fiber Optic,116.98,2105.64,No,Month-to-Month
+0189-LMNO,Female,No,Yes,No,43,Yes,Fiber Optic,92.76,3988.68,Yes,Two Year
+0190-WXYZ,Female,Yes,No,No,35,No,No,112.26,3929.1,No,Two Year
+0191-TUV,Female,No,No,No,58,No,No,96.22,5580.76,No,One Year
+0192-PQRS,Male,No,No,Yes,33,No,DSL,79.17,2612.61,No,Month-to-Month
+0193-WXYZ,Female,No,No,Yes,14,Yes,Fiber Optic,39.2,548.8,Yes,Two Year
+0194-PQRS,Female,No,Yes,No,34,No,DSL,86.67,2946.78,No,Two Year
+0195-LMNO,Female,Yes,Yes,Yes,61,Yes,No,82.34,5022.74,No,Two Year
+0196-LMNO,Male,No,No,No,4,Yes,DSL,80.25,321.0,Yes,One Year
+0197-ABCD,Female,No,Yes,Yes,59,No,DSL,68.98,4069.82,No,One Year
+0198-TUV,Male,No,No,Yes,29,Yes,No,72.87,2113.23,No,Two Year
+0199-PQRS,Female,Yes,No,Yes,6,No,Fiber Optic,53.44,320.64,Yes,Two Year
+0200-WXYZ,Male,Yes,Yes,No,49,Yes,DSL,71.93,3524.57,Yes,Month-to-Month
+0201-LMNO,Male,Yes,Yes,Yes,40,Yes,No,39.76,1590.4,No,Month-to-Month
+0202-ABCD,Female,No,Yes,Yes,65,No,Fiber Optic,100.52,6533.8,No,Month-to-Month
+0203-ABCD,Female,No,No,No,69,No,No,38.58,2662.02,Yes,One Year
+0204-PQRS,Male,Yes,Yes,No,27,No,DSL,28.5,769.5,Yes,Two Year
+0205-LMNO,Female,No,No,No,6,No,Fiber Optic,63.62,381.72,No,One Year
+0206-TUV,Male,Yes,Yes,No,13,Yes,Fiber Optic,85.83,1115.79,No,Two Year
+0207-LMNO,Male,Yes,Yes,Yes,64,Yes,No,63.77,4081.28,No,Month-to-Month
+0208-PQRS,Male,No,No,Yes,62,Yes,No,47.68,2956.16,Yes,Month-to-Month
+0209-PQRS,Male,No,No,Yes,19,No,No,75.82,1440.58,No,Month-to-Month
+0210-LMNO,Male,No,No,Yes,43,Yes,Fiber Optic,54.7,2352.1,Yes,Month-to-Month
+0211-PQRS,Female,No,No,Yes,20,No,Fiber Optic,113.29,2265.8,Yes,Two Year
+0212-LMNO,Male,Yes,No,No,68,Yes,DSL,112.26,7633.68,Yes,Month-to-Month
+0213-WXYZ,Male,Yes,No,Yes,44,No,Fiber Optic,70.24,3090.56,No,Two Year
+0214-LMNO,Female,Yes,No,Yes,23,Yes,DSL,52.79,1214.17,No,Two Year
+0215-LMNO,Male,Yes,No,Yes,2,Yes,No,93.71,187.42,No,One Year
+0216-PQRS,Female,Yes,Yes,No,22,No,No,23.67,520.74,Yes,Month-to-Month
+0217-PQRS,Female,No,No,No,57,Yes,Fiber Optic,67.48,3846.36,No,Month-to-Month
+0218-ABCD,Female,Yes,No,Yes,7,No,No,53.63,375.41,Yes,One Year
+0219-ABCD,Male,Yes,Yes,No,56,Yes,No,112.05,6274.8,Yes,Two Year
+0220-WXYZ,Male,Yes,No,No,67,Yes,Fiber Optic,21.2,1420.4,Yes,Month-to-Month
+0221-ABCD,Male,No,Yes,No,16,No,DSL,75.28,1204.48,Yes,Two Year
+0222-LMNO,Female,No,Yes,No,51,No,Fiber Optic,94.07,4797.57,Yes,One Year
+0223-PQRS,Male,No,No,No,12,Yes,DSL,68.5,822.0,Yes,Two Year
+0224-ABCD,Female,No,Yes,No,53,Yes,Fiber Optic,28.54,1512.62,No,Month-to-Month
+0225-ABCD,Male,Yes,No,No,5,Yes,Fiber Optic,117.25,586.25,Yes,Two Year
+0226-WXYZ,Female,Yes,Yes,Yes,27,Yes,No,71.8,1938.6,No,Two Year
+0227-WXYZ,Male,No,Yes,Yes,12,Yes,Fiber Optic,81.42,977.04,Yes,Month-to-Month
+0228-LMNO,Male,No,Yes,No,17,Yes,Fiber Optic,43.66,742.22,No,Month-to-Month
+0229-PQRS,Male,Yes,No,Yes,6,No,DSL,68.35,410.1,No,Two Year
+0230-WXYZ,Female,Yes,No,Yes,5,No,No,62.91,314.55,No,Two Year
+0231-ABCD,Female,No,Yes,No,57,No,DSL,27.49,1566.93,No,One Year
+0232-PQRS,Male,No,Yes,Yes,28,Yes,DSL,30.62,857.36,Yes,Month-to-Month
+0233-PQRS,Male,No,No,No,69,Yes,No,103.75,7158.75,Yes,Two Year
+0234-ABCD,Female,No,No,No,59,Yes,No,43.98,2594.82,Yes,Month-to-Month
+0235-WXYZ,Female,Yes,Yes,No,33,No,No,39.5,1303.5,Yes,One Year
+0236-ABCD,Female,Yes,Yes,Yes,62,No,Fiber Optic,70.49,4370.38,No,Two Year
+0237-PQRS,Male,Yes,No,Yes,50,Yes,No,96.87,4843.5,No,Two Year
+0238-TUV,Female,No,No,Yes,19,Yes,No,26.19,497.61,No,Two Year
+0239-TUV,Male,No,No,Yes,69,No,No,77.68,5359.92,Yes,Month-to-Month
+0240-LMNO,Female,Yes,No,No,66,No,DSL,31.92,2106.72,No,One Year
+0241-ABCD,Male,Yes,No,No,47,No,DSL,23.65,1111.55,Yes,Month-to-Month
+0242-ABCD,Female,Yes,Yes,Yes,39,Yes,Fiber Optic,25.27,985.53,No,Two Year
+0243-LMNO,Female,Yes,No,No,68,Yes,DSL,103.42,7032.56,No,One Year
+0244-LMNO,Female,No,Yes,No,33,Yes,Fiber Optic,31.8,1049.4,No,Two Year
+0245-LMNO,Female,Yes,No,Yes,13,No,DSL,24.52,318.76,No,Two Year
+0246-PQRS,Female,Yes,Yes,No,54,No,No,63.79,3444.66,No,Month-to-Month
+0247-ABCD,Male,Yes,No,Yes,7,Yes,DSL,104.4,730.8,Yes,Two Year
+0248-PQRS,Female,Yes,No,No,14,Yes,Fiber Optic,46.24,647.36,No,One Year
+0249-LMNO,Female,Yes,Yes,Yes,19,No,DSL,62.17,1181.23,Yes,Two Year
+0250-ABCD,Female,Yes,Yes,No,54,Yes,No,23.99,1295.46,Yes,Two Year
+0251-PQRS,Male,Yes,No,No,20,No,Fiber Optic,64.91,1298.2,Yes,Month-to-Month
+0252-PQRS,Female,No,No,Yes,29,No,No,77.76,2255.04,Yes,One Year
+0253-LMNO,Male,No,No,Yes,24,Yes,No,77.09,1850.16,Yes,Month-to-Month
+0254-ABCD,Female,No,No,Yes,63,No,Fiber Optic,53.24,3354.12,Yes,Two Year
+0255-LMNO,Female,No,No,Yes,57,Yes,No,51.55,2938.35,Yes,Month-to-Month
+0256-ABCD,Male,Yes,Yes,No,8,No,No,30.66,245.28,Yes,Month-to-Month
+0257-TUV,Female,No,Yes,No,62,No,DSL,56.68,3514.16,No,Month-to-Month
+0258-WXYZ,Male,No,No,Yes,29,Yes,No,29.95,868.55,No,Month-to-Month
+0259-WXYZ,Male,Yes,Yes,No,17,No,No,96.66,1643.22,Yes,Two Year
+0260-WXYZ,Female,Yes,Yes,Yes,66,Yes,No,116.63,7697.58,Yes,Two Year
+0261-LMNO,Male,No,Yes,Yes,6,Yes,No,117.01,702.06,Yes,One Year
+0262-TUV,Female,No,No,No,58,No,Fiber Optic,106.51,6177.58,No,Month-to-Month
+0263-ABCD,Female,Yes,Yes,No,69,Yes,DSL,80.08,5525.52,No,Month-to-Month
+0264-PQRS,Male,No,No,Yes,28,Yes,No,90.09,2522.52,Yes,One Year
+0265-ABCD,Male,Yes,Yes,Yes,62,Yes,No,48.52,3008.24,Yes,Month-to-Month
+0266-PQRS,Male,Yes,No,Yes,41,Yes,Fiber Optic,83.08,3406.28,No,One Year
+0267-ABCD,Male,Yes,Yes,No,69,Yes,No,65.56,4523.64,No,Two Year
+0268-TUV,Female,Yes,No,No,41,Yes,Fiber Optic,68.2,2796.2,Yes,One Year
+0269-PQRS,Female,No,No,No,49,No,DSL,95.78,4693.22,Yes,Month-to-Month
+0270-LMNO,Male,Yes,Yes,No,49,Yes,DSL,48.19,2361.31,Yes,One Year
+0271-ABCD,Female,Yes,No,Yes,71,No,No,51.8,3677.8,Yes,Two Year
+0272-ABCD,Female,No,No,Yes,3,No,No,112.46,337.38,No,Month-to-Month
+0273-PQRS,Female,Yes,No,Yes,10,Yes,No,25.62,256.2,No,Two Year
+0274-LMNO,Female,No,No,Yes,35,No,Fiber Optic,68.56,2399.6,Yes,Two Year
+0275-LMNO,Male,No,No,Yes,2,No,No,111.28,222.56,Yes,One Year
+0276-TUV,Male,No,No,Yes,24,Yes,No,81.04,1944.96,Yes,Two Year
+0277-LMNO,Female,Yes,No,No,38,Yes,DSL,74.64,2836.32,No,Month-to-Month
+0278-LMNO,Male,No,No,No,22,Yes,No,44.97,989.34,Yes,Two Year
+0279-LMNO,Male,No,Yes,Yes,26,No,DSL,54.33,1412.58,Yes,Two Year
+0280-WXYZ,Male,Yes,Yes,Yes,43,No,No,105.2,4523.6,Yes,One Year
+0281-TUV,Female,No,No,No,55,Yes,DSL,75.92,4175.6,No,Two Year
+0282-ABCD,Female,No,No,No,39,Yes,No,71.47,2787.33,Yes,One Year
+0283-PQRS,Female,No,Yes,No,29,No,DSL,29.96,868.84,No,One Year
+0284-ABCD,Male,No,Yes,No,20,No,Fiber Optic,21.6,432.0,Yes,Month-to-Month
+0285-TUV,Female,No,Yes,Yes,41,No,DSL,116.37,4771.17,Yes,Month-to-Month
+0286-PQRS,Female,Yes,No,Yes,54,No,DSL,57.7,3115.8,Yes,Month-to-Month
+0287-TUV,Male,No,Yes,Yes,20,Yes,DSL,80.32,1606.4,No,Month-to-Month
+0288-LMNO,Female,No,No,Yes,19,No,No,27.97,531.43,Yes,One Year
+0289-PQRS,Female,Yes,No,Yes,66,No,No,88.31,5828.46,Yes,Two Year
+0290-LMNO,Male,Yes,Yes,No,30,No,No,113.26,3397.8,No,Month-to-Month
+0291-ABCD,Male,Yes,No,Yes,53,No,Fiber Optic,77.57,4111.21,No,Month-to-Month
+0292-ABCD,Male,No,No,No,34,Yes,Fiber Optic,32.61,1108.74,No,Month-to-Month
+0293-PQRS,Female,Yes,No,Yes,22,Yes,DSL,78.17,1719.74,Yes,Two Year
+0294-PQRS,Female,No,No,Yes,67,No,Fiber Optic,96.63,6474.21,No,Month-to-Month
+0295-TUV,Female,No,Yes,Yes,6,No,DSL,60.64,363.84,Yes,Two Year
+0296-TUV,Male,Yes,Yes,Yes,27,Yes,DSL,107.98,2915.46,No,One Year
+0297-LMNO,Male,Yes,No,Yes,10,Yes,DSL,84.87,848.7,No,One Year
+0298-PQRS,Female,No,No,No,48,No,Fiber Optic,109.92,5276.16,No,One Year
+0299-ABCD,Female,Yes,Yes,No,70,No,No,82.35,5764.5,Yes,Two Year
+0300-TUV,Male,No,No,No,59,Yes,Fiber Optic,33.13,1954.67,Yes,Month-to-Month
+0301-TUV,Male,Yes,Yes,Yes,59,Yes,DSL,50.97,3007.23,Yes,Month-to-Month
+0302-ABCD,Male,Yes,No,Yes,2,Yes,DSL,40.18,80.36,Yes,Month-to-Month
+0303-TUV,Male,Yes,No,No,29,Yes,Fiber Optic,110.88,3215.52,Yes,Month-to-Month
+0304-LMNO,Female,No,Yes,Yes,68,Yes,DSL,96.04,6530.72,Yes,Month-to-Month
+0305-PQRS,Male,Yes,Yes,Yes,65,Yes,DSL,87.64,5696.6,Yes,Two Year
+0306-ABCD,Female,No,Yes,No,26,No,Fiber Optic,50.1,1302.6,Yes,One Year
+0307-PQRS,Female,No,Yes,Yes,10,Yes,Fiber Optic,38.4,384.0,Yes,Month-to-Month
+0308-TUV,Female,No,No,No,53,Yes,Fiber Optic,95.65,5069.45,No,One Year
+0309-TUV,Male,No,Yes,Yes,59,Yes,DSL,67.42,3977.78,No,Two Year
+0310-ABCD,Male,Yes,No,No,22,Yes,DSL,42.58,936.76,Yes,Two Year
+0311-LMNO,Male,No,Yes,Yes,51,No,No,81.66,4164.66,Yes,Month-to-Month
+0312-WXYZ,Male,No,Yes,Yes,48,No,No,24.03,1153.44,Yes,Two Year
+0313-ABCD,Female,Yes,No,No,21,Yes,Fiber Optic,52.62,1105.02,Yes,One Year
+0314-WXYZ,Male,No,Yes,Yes,22,No,No,66.86,1470.92,No,Month-to-Month
+0315-WXYZ,Male,Yes,Yes,Yes,30,No,DSL,34.8,1044.0,No,Month-to-Month
+0316-LMNO,Female,No,Yes,No,25,No,No,118.47,2961.75,Yes,One Year
+0317-WXYZ,Male,Yes,Yes,Yes,28,No,DSL,40.91,1145.48,No,Month-to-Month
+0318-WXYZ,Female,No,No,No,65,No,Fiber Optic,33.04,2147.6,No,Month-to-Month
+0319-LMNO,Female,Yes,No,Yes,45,No,Fiber Optic,40.35,1815.75,Yes,One Year
+0320-WXYZ,Female,No,Yes,Yes,68,Yes,DSL,96.91,6589.88,Yes,Month-to-Month
+0321-WXYZ,Female,No,Yes,Yes,7,Yes,No,62.55,437.85,Yes,Month-to-Month
+0322-WXYZ,Female,Yes,Yes,Yes,49,Yes,Fiber Optic,76.54,3750.46,Yes,One Year
+0323-ABCD,Female,Yes,No,No,9,Yes,Fiber Optic,22.1,198.9,No,Two Year
+0324-ABCD,Female,Yes,No,Yes,36,Yes,No,23.44,843.84,Yes,One Year
+0325-ABCD,Female,Yes,No,No,1,No,No,64.58,64.58,No,Month-to-Month
+0326-LMNO,Male,No,No,Yes,10,Yes,DSL,101.67,1016.7,Yes,One Year
+0327-TUV,Male,No,Yes,Yes,36,Yes,No,108.52,3906.72,No,Month-to-Month
+0328-WXYZ,Male,Yes,Yes,Yes,46,No,No,28.67,1318.82,Yes,Month-to-Month
+0329-WXYZ,Male,No,Yes,Yes,32,No,No,73.84,2362.88,Yes,One Year
+0330-LMNO,Female,Yes,No,No,32,Yes,DSL,111.32,3562.24,No,Month-to-Month
+0331-WXYZ,Male,Yes,Yes,No,6,No,DSL,58.8,352.8,No,Two Year
+0332-ABCD,Female,No,No,No,48,No,Fiber Optic,102.96,4942.08,No,Month-to-Month
+0333-TUV,Male,No,No,No,38,No,DSL,33.37,1268.06,Yes,One Year
+0334-PQRS,Male,No,Yes,Yes,17,No,Fiber Optic,113.54,1930.18,No,Two Year
+0335-WXYZ,Male,No,Yes,No,27,Yes,No,95.14,2568.78,No,Two Year
+0336-ABCD,Female,No,Yes,No,54,No,Fiber Optic,114.13,6163.02,No,Month-to-Month
+0337-PQRS,Male,No,No,Yes,50,Yes,Fiber Optic,87.66,4383.0,No,One Year
+0338-TUV,Female,No,No,Yes,35,Yes,No,56.34,1971.9,No,Month-to-Month
+0339-PQRS,Female,Yes,Yes,Yes,25,No,Fiber Optic,113.82,2845.5,No,Month-to-Month
+0340-ABCD,Male,Yes,Yes,Yes,28,No,DSL,47.56,1331.68,No,One Year
+0341-PQRS,Male,Yes,No,No,15,No,DSL,53.22,798.3,No,One Year
+0342-LMNO,Male,Yes,Yes,No,4,Yes,DSL,90.08,360.32,No,Month-to-Month
+0343-PQRS,Female,Yes,No,Yes,27,No,DSL,96.53,2606.31,Yes,Two Year
+0344-WXYZ,Male,No,No,Yes,26,No,Fiber Optic,112.94,2936.44,Yes,Month-to-Month
+0345-WXYZ,Female,Yes,Yes,Yes,19,No,Fiber Optic,40.48,769.12,No,Two Year
+0346-LMNO,Female,Yes,Yes,No,17,No,No,99.8,1696.6,Yes,Month-to-Month
+0347-ABCD,Male,Yes,Yes,No,43,No,Fiber Optic,93.85,4035.55,Yes,One Year
+0348-WXYZ,Male,Yes,Yes,Yes,41,Yes,Fiber Optic,26.38,1081.58,No,Two Year
+0349-TUV,Female,Yes,No,Yes,42,No,Fiber Optic,58.72,2466.24,No,One Year
+0350-WXYZ,Female,Yes,No,No,50,No,No,48.28,2414.0,No,One Year
+0351-WXYZ,Female,Yes,No,Yes,40,No,DSL,50.45,2018.0,No,One Year
+0352-ABCD,Male,No,Yes,Yes,39,Yes,Fiber Optic,118.29,4613.31,No,One Year
+0353-PQRS,Female,No,No,No,23,No,No,84.28,1938.44,No,One Year
+0354-WXYZ,Male,Yes,Yes,Yes,52,Yes,No,91.77,4772.04,Yes,Month-to-Month
+0355-LMNO,Female,No,Yes,No,47,Yes,No,117.66,5530.02,No,Two Year
+0356-PQRS,Female,No,Yes,Yes,63,No,DSL,57.72,3636.36,Yes,Month-to-Month
+0357-TUV,Male,No,Yes,Yes,69,No,Fiber Optic,100.18,6912.42,No,Month-to-Month
+0358-ABCD,Female,No,Yes,No,43,No,No,63.45,2728.35,No,Month-to-Month
+0359-TUV,Male,Yes,Yes,No,48,Yes,DSL,106.95,5133.6,Yes,One Year
+0360-PQRS,Male,No,No,Yes,34,Yes,No,38.07,1294.38,No,Month-to-Month
+0361-PQRS,Female,No,Yes,No,40,Yes,No,114.77,4590.8,No,Two Year
+0362-PQRS,Male,No,No,Yes,61,Yes,No,41.88,2554.68,Yes,Month-to-Month
+0363-TUV,Male,Yes,No,Yes,50,Yes,No,52.62,2631.0,No,One Year
+0364-PQRS,Female,Yes,Yes,No,67,Yes,No,95.62,6406.54,Yes,Two Year
+0365-TUV,Male,Yes,Yes,Yes,62,No,DSL,59.38,3681.56,No,Two Year
+0366-PQRS,Male,Yes,Yes,Yes,58,No,Fiber Optic,80.82,4687.56,No,Two Year
+0367-LMNO,Male,Yes,No,No,33,Yes,Fiber Optic,64.46,2127.18,Yes,Two Year
+0368-PQRS,Female,Yes,Yes,No,16,No,Fiber Optic,94.24,1507.84,No,Month-to-Month
+0369-TUV,Male,Yes,No,Yes,48,No,Fiber Optic,42.83,2055.84,Yes,One Year
+0370-WXYZ,Female,No,Yes,No,10,Yes,DSL,25.85,258.5,Yes,Two Year
+0371-PQRS,Female,No,Yes,No,38,Yes,DSL,49.99,1899.62,Yes,Two Year
+0372-WXYZ,Male,No,No,No,19,No,DSL,67.43,1281.17,No,One Year
+0373-LMNO,Male,Yes,No,No,36,Yes,No,36.8,1324.8,No,Month-to-Month
+0374-ABCD,Male,Yes,Yes,Yes,59,Yes,No,55.48,3273.32,Yes,Two Year
+0375-LMNO,Female,Yes,No,Yes,63,No,No,60.0,3780.0,No,Month-to-Month
+0376-PQRS,Male,Yes,No,Yes,46,Yes,Fiber Optic,25.74,1184.04,No,Month-to-Month
+0377-WXYZ,Male,Yes,No,No,3,No,No,78.33,234.99,No,Month-to-Month
+0378-WXYZ,Male,No,No,No,65,No,Fiber Optic,108.43,7047.95,Yes,Month-to-Month
+0379-TUV,Male,No,No,No,8,No,No,35.17,281.36,No,Two Year
+0380-WXYZ,Male,Yes,Yes,No,51,No,Fiber Optic,79.78,4068.78,Yes,Two Year
+0381-TUV,Female,Yes,Yes,No,6,No,No,86.47,518.82,No,Month-to-Month
+0382-ABCD,Female,Yes,No,No,39,Yes,No,61.93,2415.27,No,Month-to-Month
+0383-PQRS,Male,Yes,Yes,No,60,Yes,DSL,90.11,5406.6,Yes,One Year
+0384-TUV,Male,No,Yes,Yes,28,Yes,No,61.07,1709.96,No,One Year
+0385-ABCD,Male,Yes,No,Yes,54,Yes,No,70.46,3804.84,Yes,One Year
+0386-WXYZ,Male,Yes,Yes,No,37,No,DSL,20.74,767.38,No,Two Year
+0387-WXYZ,Female,Yes,No,No,9,No,Fiber Optic,89.17,802.53,Yes,One Year
+0388-ABCD,Male,Yes,No,No,56,Yes,DSL,86.13,4823.28,No,Two Year
+0389-WXYZ,Female,No,Yes,Yes,59,No,DSL,23.84,1406.56,No,Two Year
+0390-ABCD,Female,Yes,No,Yes,2,Yes,Fiber Optic,56.83,113.66,No,Two Year
+0391-TUV,Male,Yes,No,No,61,Yes,No,117.9,7191.9,Yes,Two Year
+0392-TUV,Female,No,No,No,58,Yes,Fiber Optic,62.07,3600.06,Yes,One Year
+0393-ABCD,Female,No,No,Yes,60,No,No,70.19,4211.4,Yes,Month-to-Month
+0394-TUV,Female,No,No,Yes,40,No,No,110.99,4439.6,No,Month-to-Month
+0395-TUV,Female,Yes,Yes,Yes,36,No,Fiber Optic,91.73,3302.28,Yes,Month-to-Month
+0396-TUV,Male,Yes,Yes,Yes,37,No,DSL,78.21,2893.77,Yes,One Year
+0397-LMNO,Male,No,No,No,18,Yes,Fiber Optic,99.78,1796.04,Yes,Month-to-Month
+0398-PQRS,Female,No,No,Yes,63,No,No,106.44,6705.72,Yes,One Year
+0399-WXYZ,Male,No,Yes,Yes,22,No,Fiber Optic,65.69,1445.18,Yes,One Year
+0400-LMNO,Male,No,No,No,11,No,Fiber Optic,67.51,742.61,Yes,One Year
+0401-TUV,Male,No,Yes,Yes,58,Yes,No,58.61,3399.38,Yes,Month-to-Month
+0402-ABCD,Male,No,No,Yes,57,Yes,DSL,116.67,6650.19,Yes,Month-to-Month
+0403-TUV,Male,Yes,No,Yes,4,No,Fiber Optic,89.72,358.88,Yes,Month-to-Month
+0404-PQRS,Female,Yes,No,No,7,No,No,28.32,198.24,Yes,Two Year
+0405-TUV,Male,Yes,No,Yes,61,No,No,106.3,6484.3,No,One Year
+0406-ABCD,Male,No,No,No,54,No,Fiber Optic,68.06,3675.24,No,Two Year
+0407-PQRS,Male,No,No,No,68,Yes,DSL,26.88,1827.84,Yes,One Year
+0408-TUV,Male,No,No,Yes,1,No,Fiber Optic,74.97,74.97,No,Month-to-Month
+0409-PQRS,Female,No,Yes,Yes,55,No,DSL,61.72,3394.6,No,One Year
+0410-WXYZ,Female,No,Yes,Yes,3,No,DSL,107.77,323.31,Yes,One Year
+0411-WXYZ,Female,No,Yes,Yes,38,Yes,DSL,40.4,1535.2,Yes,Two Year
+0412-TUV,Female,Yes,No,No,1,Yes,DSL,102.65,102.65,Yes,One Year
+0413-PQRS,Male,Yes,No,Yes,38,No,Fiber Optic,75.77,2879.26,No,Month-to-Month
+0414-ABCD,Female,No,No,Yes,29,No,No,25.46,738.34,Yes,One Year
+0415-TUV,Male,Yes,No,Yes,5,No,No,117.18,585.9,No,One Year
+0416-WXYZ,Male,No,No,No,21,No,No,71.26,1496.46,Yes,One Year
+0417-WXYZ,Male,Yes,No,Yes,71,No,No,49.09,3485.39,No,Two Year
+0418-TUV,Male,No,No,Yes,67,Yes,No,66.94,4484.98,No,One Year
+0419-PQRS,Male,No,Yes,No,47,Yes,No,105.79,4972.13,Yes,One Year
+0420-WXYZ,Female,Yes,No,No,35,Yes,Fiber Optic,50.49,1767.15,Yes,Two Year
+0421-PQRS,Female,Yes,Yes,Yes,68,No,DSL,39.27,2670.36,No,Two Year
+0422-WXYZ,Female,No,Yes,Yes,69,Yes,No,32.91,2270.79,No,Two Year
+0423-WXYZ,Female,No,No,Yes,1,Yes,Fiber Optic,49.79,49.79,Yes,Two Year
+0424-LMNO,Male,Yes,No,Yes,68,Yes,No,98.0,6664.0,Yes,Month-to-Month
+0425-WXYZ,Female,Yes,Yes,Yes,12,No,No,67.16,805.92,No,Month-to-Month
+0426-ABCD,Male,No,Yes,No,60,No,DSL,42.75,2565.0,Yes,One Year
+0427-TUV,Female,Yes,No,No,27,Yes,DSL,36.62,988.74,No,Month-to-Month
+0428-TUV,Male,No,No,Yes,56,No,DSL,53.27,2983.12,Yes,One Year
+0429-PQRS,Male,No,Yes,Yes,23,Yes,No,113.99,2621.77,Yes,Month-to-Month
+0430-WXYZ,Female,No,No,No,25,Yes,No,54.3,1357.5,Yes,Two Year
+0431-ABCD,Male,No,No,Yes,21,Yes,No,118.81,2495.01,No,Two Year
+0432-PQRS,Male,Yes,No,Yes,61,Yes,DSL,68.52,4179.72,Yes,Month-to-Month
+0433-LMNO,Female,Yes,Yes,Yes,63,No,Fiber Optic,37.92,2388.96,No,Month-to-Month
+0434-PQRS,Male,Yes,Yes,Yes,52,No,No,109.11,5673.72,Yes,One Year
+0435-PQRS,Female,Yes,Yes,Yes,25,No,No,66.04,1651.0,No,One Year
+0436-WXYZ,Female,Yes,No,No,55,No,No,90.97,5003.35,No,One Year
+0437-LMNO,Female,Yes,No,Yes,46,Yes,Fiber Optic,118.37,5445.02,Yes,Two Year
+0438-PQRS,Male,Yes,Yes,Yes,32,No,No,25.02,800.64,No,Two Year
+0439-ABCD,Male,No,Yes,Yes,55,Yes,Fiber Optic,29.67,1631.85,No,Two Year
+0440-ABCD,Male,Yes,Yes,No,5,No,No,92.05,460.25,No,Two Year
+0441-TUV,Female,Yes,No,No,36,No,Fiber Optic,48.18,1734.48,No,One Year
+0442-LMNO,Male,No,Yes,No,49,No,No,38.43,1883.07,Yes,Two Year
+0443-LMNO,Female,Yes,Yes,No,58,Yes,DSL,23.94,1388.52,Yes,Two Year
+0444-TUV,Female,Yes,No,Yes,39,Yes,DSL,22.18,865.02,Yes,Two Year
+0445-PQRS,Male,No,No,No,61,Yes,DSL,97.45,5944.45,No,Two Year
+0446-LMNO,Female,Yes,No,Yes,9,Yes,DSL,33.44,300.96,No,Month-to-Month
+0447-ABCD,Male,Yes,Yes,Yes,6,No,No,66.77,400.62,Yes,One Year
+0448-ABCD,Male,Yes,No,No,35,Yes,DSL,80.59,2820.65,Yes,One Year
+0449-WXYZ,Male,No,No,No,39,Yes,Fiber Optic,62.84,2450.76,No,Two Year
+0450-LMNO,Male,Yes,Yes,No,22,No,DSL,22.71,499.62,Yes,Month-to-Month
+0451-PQRS,Male,Yes,No,No,41,No,DSL,98.35,4032.35,Yes,One Year
+0452-TUV,Female,No,Yes,No,5,Yes,DSL,21.05,105.25,No,One Year
+0453-TUV,Female,Yes,Yes,Yes,42,No,No,96.19,4039.98,Yes,Two Year
+0454-PQRS,Female,No,No,No,67,Yes,DSL,109.33,7325.11,No,Two Year
+0455-WXYZ,Male,No,No,No,30,No,Fiber Optic,63.28,1898.4,Yes,One Year
+0456-TUV,Male,Yes,No,No,57,Yes,DSL,73.55,4192.35,No,One Year
+0457-LMNO,Male,No,No,Yes,29,Yes,DSL,67.7,1963.3,No,Month-to-Month
+0458-WXYZ,Female,No,No,No,37,Yes,DSL,58.92,2180.04,No,One Year
+0459-LMNO,Male,Yes,No,Yes,13,Yes,Fiber Optic,108.74,1413.62,No,One Year
+0460-ABCD,Female,No,Yes,No,32,Yes,DSL,109.39,3500.48,No,Two Year
+0461-WXYZ,Female,No,Yes,No,46,No,Fiber Optic,53.58,2464.68,Yes,One Year
+0462-TUV,Male,Yes,No,Yes,23,Yes,Fiber Optic,81.51,1874.73,Yes,Two Year
+0463-WXYZ,Male,Yes,Yes,No,45,Yes,DSL,112.69,5071.05,Yes,One Year
+0464-WXYZ,Female,Yes,No,Yes,17,Yes,Fiber Optic,116.21,1975.57,No,One Year
+0465-WXYZ,Male,No,Yes,Yes,66,Yes,No,70.9,4679.4,Yes,One Year
+0466-WXYZ,Female,Yes,Yes,Yes,6,Yes,DSL,65.28,391.68,No,Month-to-Month
+0467-LMNO,Male,No,Yes,No,18,No,DSL,47.87,861.66,No,Two Year
+0468-ABCD,Male,No,No,No,22,No,Fiber Optic,115.89,2549.58,Yes,Month-to-Month
+0469-PQRS,Female,No,Yes,No,33,Yes,Fiber Optic,34.28,1131.24,No,One Year
+0470-WXYZ,Male,No,No,Yes,30,No,DSL,77.98,2339.4,Yes,Month-to-Month
+0471-TUV,Female,No,Yes,No,32,Yes,No,48.26,1544.32,No,Two Year
+0472-WXYZ,Male,No,Yes,Yes,42,No,Fiber Optic,47.9,2011.8,No,One Year
+0473-TUV,Female,No,Yes,No,10,No,Fiber Optic,60.5,605.0,Yes,Month-to-Month
+0474-LMNO,Female,Yes,Yes,Yes,36,Yes,No,119.88,4315.68,No,Month-to-Month
+0475-TUV,Male,Yes,Yes,Yes,34,No,No,25.5,867.0,Yes,Two Year
+0476-PQRS,Female,No,No,Yes,28,No,DSL,77.85,2179.8,No,Month-to-Month
+0477-ABCD,Male,No,No,No,11,Yes,No,28.26,310.86,Yes,Two Year
+0478-TUV,Male,Yes,Yes,Yes,39,Yes,DSL,35.45,1382.55,No,One Year
+0479-TUV,Male,No,Yes,Yes,47,No,No,63.96,3006.12,Yes,One Year
+0480-ABCD,Female,Yes,Yes,Yes,19,No,Fiber Optic,71.05,1349.95,Yes,Month-to-Month
+0481-PQRS,Female,Yes,Yes,Yes,15,No,DSL,45.88,688.2,No,One Year
+0482-WXYZ,Male,Yes,No,Yes,28,Yes,DSL,51.65,1446.2,Yes,One Year
+0483-TUV,Male,No,Yes,Yes,24,No,DSL,28.7,688.8,No,Month-to-Month
+0484-ABCD,Female,No,No,No,9,No,No,50.32,452.88,No,One Year
+0485-LMNO,Male,Yes,Yes,No,47,No,Fiber Optic,116.66,5483.02,Yes,Month-to-Month
+0486-ABCD,Male,Yes,No,Yes,33,Yes,DSL,114.47,3777.51,Yes,Two Year
+0487-LMNO,Female,Yes,Yes,No,62,Yes,DSL,53.49,3316.38,Yes,Two Year
+0488-PQRS,Male,Yes,Yes,No,19,Yes,DSL,77.09,1464.71,Yes,Two Year
+0489-WXYZ,Female,Yes,No,Yes,67,Yes,DSL,110.96,7434.32,Yes,Month-to-Month
+0490-ABCD,Male,No,Yes,Yes,40,No,Fiber Optic,20.62,824.8,No,Month-to-Month
+0491-TUV,Female,Yes,Yes,Yes,47,Yes,No,101.07,4750.29,Yes,One Year
+0492-PQRS,Male,No,Yes,No,65,No,Fiber Optic,114.84,7464.6,No,One Year
+0493-ABCD,Male,Yes,No,Yes,29,No,DSL,29.13,844.77,Yes,One Year
+0494-TUV,Female,No,Yes,No,50,No,Fiber Optic,36.14,1807.0,Yes,One Year
+0495-ABCD,Male,No,Yes,Yes,13,No,DSL,116.07,1508.91,Yes,One Year
+0496-LMNO,Female,No,No,No,1,Yes,No,73.75,73.75,No,Month-to-Month
+0497-ABCD,Male,No,No,Yes,34,Yes,No,21.42,728.28,Yes,Month-to-Month
+0498-ABCD,Female,No,No,Yes,48,Yes,No,45.76,2196.48,No,Two Year
+0499-ABCD,Female,No,Yes,No,48,Yes,DSL,64.99,3119.52,No,Two Year
+0500-PQRS,Female,Yes,Yes,No,49,Yes,Fiber Optic,89.29,4375.21,No,Two Year
+0501-ABCD,Female,No,Yes,No,64,No,No,93.32,5972.48,Yes,Two Year
+0502-TUV,Male,Yes,No,No,61,Yes,DSL,119.54,7291.94,No,Month-to-Month
+0503-LMNO,Male,No,Yes,No,29,Yes,DSL,48.75,1413.75,Yes,Month-to-Month
+0504-LMNO,Female,No,Yes,No,39,Yes,Fiber Optic,73.82,2878.98,No,Month-to-Month
+0505-ABCD,Female,Yes,No,Yes,26,Yes,No,73.33,1906.58,Yes,One Year
+0506-PQRS,Female,No,No,No,17,No,DSL,60.56,1029.52,No,One Year
+0507-PQRS,Male,Yes,No,Yes,71,No,Fiber Optic,36.92,2621.32,Yes,Two Year
+0508-TUV,Male,Yes,No,Yes,13,No,No,117.75,1530.75,Yes,One Year
+0509-ABCD,Male,Yes,No,No,69,No,Fiber Optic,105.33,7267.77,Yes,Month-to-Month
+0510-LMNO,Male,Yes,Yes,Yes,26,No,Fiber Optic,69.83,1815.58,No,Two Year
+0511-PQRS,Female,No,No,No,49,Yes,DSL,80.32,3935.68,No,Two Year
+0512-ABCD,Female,No,Yes,No,67,No,DSL,42.73,2862.91,Yes,One Year
+0513-PQRS,Female,Yes,Yes,Yes,7,No,DSL,74.38,520.66,No,Two Year
+0514-PQRS,Male,No,No,Yes,58,No,Fiber Optic,89.5,5191.0,No,One Year
+0515-LMNO,Male,No,No,No,49,Yes,DSL,71.52,3504.48,No,One Year
+0516-WXYZ,Male,Yes,No,No,53,Yes,Fiber Optic,119.03,6308.59,No,Two Year
+0517-TUV,Female,No,Yes,Yes,65,No,Fiber Optic,81.13,5273.45,No,One Year
+0518-TUV,Female,Yes,No,Yes,62,Yes,DSL,57.1,3540.2,No,One Year
+0519-LMNO,Male,Yes,No,Yes,17,Yes,No,97.22,1652.74,No,One Year
+0520-PQRS,Female,No,No,Yes,43,No,No,37.05,1593.15,Yes,One Year
+0521-ABCD,Male,No,No,No,25,Yes,No,58.45,1461.25,Yes,Two Year
+0522-PQRS,Male,No,No,No,3,Yes,Fiber Optic,54.7,164.1,No,Month-to-Month
+0523-LMNO,Female,Yes,Yes,No,29,Yes,Fiber Optic,63.18,1832.22,Yes,Month-to-Month
+0524-TUV,Male,Yes,Yes,No,32,No,Fiber Optic,98.18,3141.76,Yes,One Year
+0525-PQRS,Female,No,Yes,Yes,26,No,DSL,68.42,1778.92,Yes,One Year
+0526-TUV,Male,No,No,Yes,16,No,Fiber Optic,99.4,1590.4,No,One Year
+0527-ABCD,Female,No,No,No,25,Yes,DSL,77.65,1941.25,No,Month-to-Month
+0528-TUV,Female,No,No,No,54,No,DSL,54.21,2927.34,No,One Year
+0529-TUV,Female,Yes,Yes,No,28,Yes,No,101.0,2828.0,No,Two Year
+0530-WXYZ,Male,No,No,No,56,Yes,No,43.83,2454.48,No,Two Year
+0531-WXYZ,Male,Yes,No,No,65,Yes,No,42.44,2758.6,Yes,Two Year
+0532-WXYZ,Female,Yes,No,No,41,No,DSL,70.45,2888.45,No,Month-to-Month
+0533-TUV,Female,No,Yes,No,51,No,DSL,46.08,2350.08,Yes,One Year
+0534-LMNO,Male,No,No,No,71,No,DSL,20.91,1484.61,No,One Year
+0535-TUV,Male,No,Yes,No,29,No,Fiber Optic,84.83,2460.07,Yes,One Year
+0536-LMNO,Male,Yes,No,Yes,19,Yes,DSL,71.11,1351.09,No,Month-to-Month
+0537-LMNO,Female,No,Yes,No,66,No,No,64.55,4260.3,No,Month-to-Month
+0538-WXYZ,Male,No,Yes,Yes,41,Yes,No,116.7,4784.7,No,Month-to-Month
+0539-PQRS,Male,Yes,Yes,Yes,45,No,DSL,77.12,3470.4,No,Month-to-Month
+0540-ABCD,Female,No,No,No,15,No,DSL,106.34,1595.1,No,Two Year
+0541-WXYZ,Male,Yes,No,No,3,No,No,33.95,101.85,No,Month-to-Month
+0542-WXYZ,Male,No,Yes,Yes,11,Yes,DSL,76.92,846.12,Yes,Month-to-Month
+0543-PQRS,Male,Yes,Yes,Yes,53,Yes,No,106.8,5660.4,No,Month-to-Month
+0544-ABCD,Female,No,No,No,46,Yes,Fiber Optic,78.31,3602.26,Yes,One Year
+0545-TUV,Female,No,No,Yes,30,Yes,No,91.8,2754.0,No,One Year
+0546-TUV,Female,Yes,Yes,No,57,Yes,Fiber Optic,57.2,3260.4,Yes,One Year
+0547-WXYZ,Female,Yes,No,No,18,No,DSL,29.24,526.32,Yes,Two Year
+0548-ABCD,Female,No,No,No,51,Yes,DSL,65.79,3355.29,Yes,Two Year
+0549-WXYZ,Female,Yes,No,Yes,48,Yes,Fiber Optic,59.45,2853.6,Yes,Month-to-Month
+0550-LMNO,Female,Yes,No,Yes,66,Yes,DSL,106.71,7042.86,Yes,One Year
+0551-WXYZ,Male,Yes,Yes,No,8,Yes,Fiber Optic,44.4,355.2,Yes,Two Year
+0552-WXYZ,Male,Yes,No,Yes,22,No,DSL,116.67,2566.74,No,One Year
+0553-TUV,Female,No,No,Yes,6,Yes,No,115.81,694.86,Yes,Two Year
+0554-TUV,Male,No,Yes,Yes,57,No,DSL,44.76,2551.32,No,Two Year
+0555-TUV,Male,Yes,Yes,Yes,36,No,No,54.81,1973.16,No,Month-to-Month
+0556-LMNO,Female,Yes,No,Yes,57,No,No,109.56,6244.92,Yes,Month-to-Month
+0557-TUV,Male,Yes,No,Yes,49,Yes,Fiber Optic,116.66,5716.34,Yes,Two Year
+0558-ABCD,Male,Yes,No,Yes,45,No,DSL,64.34,2895.3,No,Month-to-Month
+0559-PQRS,Male,No,No,No,66,Yes,Fiber Optic,52.1,3438.6,Yes,Two Year
+0560-ABCD,Male,No,Yes,Yes,45,Yes,DSL,72.61,3267.45,Yes,Two Year
+0561-ABCD,Male,Yes,Yes,Yes,20,Yes,No,88.78,1775.6,Yes,One Year
+0562-TUV,Female,Yes,Yes,Yes,64,Yes,No,47.35,3030.4,Yes,Month-to-Month
+0563-PQRS,Female,Yes,No,Yes,67,Yes,DSL,93.65,6274.55,Yes,Month-to-Month
+0564-PQRS,Female,No,No,Yes,3,No,DSL,25.17,75.51,Yes,Month-to-Month
+0565-PQRS,Male,Yes,No,Yes,54,No,Fiber Optic,24.93,1346.22,Yes,One Year
+0566-LMNO,Female,No,No,Yes,64,Yes,DSL,58.63,3752.32,No,One Year
+0567-TUV,Male,Yes,Yes,Yes,40,No,DSL,55.35,2214.0,Yes,One Year
+0568-PQRS,Male,No,Yes,No,59,Yes,DSL,51.56,3042.04,No,Month-to-Month
+0569-LMNO,Male,Yes,No,Yes,55,No,Fiber Optic,69.1,3800.5,No,Month-to-Month
+0570-WXYZ,Male,No,Yes,Yes,62,No,DSL,52.07,3228.34,No,Month-to-Month
+0571-WXYZ,Female,Yes,No,Yes,4,No,No,39.23,156.92,No,One Year
+0572-LMNO,Female,Yes,No,Yes,60,No,Fiber Optic,50.95,3057.0,Yes,One Year
+0573-LMNO,Male,Yes,Yes,No,30,No,Fiber Optic,117.49,3524.7,No,Two Year
+0574-TUV,Female,No,No,No,2,Yes,No,61.11,122.22,No,One Year
+0575-TUV,Male,Yes,No,No,62,Yes,No,64.47,3997.14,No,Two Year
+0576-WXYZ,Female,No,Yes,No,49,No,No,77.65,3804.85,No,Month-to-Month
+0577-PQRS,Female,No,No,No,9,Yes,DSL,118.33,1064.97,No,One Year
+0578-WXYZ,Male,Yes,No,No,31,No,No,44.16,1368.96,Yes,Month-to-Month
+0579-PQRS,Female,Yes,Yes,No,61,Yes,DSL,88.13,5375.93,Yes,Month-to-Month
+0580-PQRS,Male,Yes,No,No,48,No,Fiber Optic,91.6,4396.8,No,Month-to-Month
+0581-TUV,Female,No,Yes,No,25,No,Fiber Optic,80.73,2018.25,Yes,Month-to-Month
+0582-ABCD,Male,Yes,No,No,36,No,No,28.86,1038.96,Yes,One Year
+0583-ABCD,Male,No,Yes,No,8,Yes,DSL,87.69,701.52,No,Month-to-Month
+0584-LMNO,Female,No,Yes,No,58,Yes,No,26.41,1531.78,No,Two Year
+0585-TUV,Female,Yes,Yes,No,45,No,No,79.61,3582.45,No,One Year
+0586-PQRS,Male,Yes,No,No,62,No,DSL,93.96,5825.52,Yes,Month-to-Month
+0587-ABCD,Female,Yes,Yes,No,39,Yes,No,41.1,1602.9,No,One Year
+0588-PQRS,Female,Yes,Yes,No,58,Yes,Fiber Optic,104.16,6041.28,Yes,Two Year
+0589-ABCD,Male,Yes,Yes,Yes,64,Yes,No,23.04,1474.56,Yes,Month-to-Month
+0590-ABCD,Male,Yes,Yes,No,44,Yes,DSL,104.38,4592.72,Yes,Two Year
+0591-ABCD,Female,No,Yes,Yes,29,Yes,DSL,66.03,1914.87,No,Month-to-Month
+0592-TUV,Male,No,No,No,59,No,Fiber Optic,41.76,2463.84,Yes,Two Year
+0593-WXYZ,Male,No,No,No,71,Yes,DSL,33.38,2369.98,No,Month-to-Month
+0594-PQRS,Male,Yes,No,Yes,9,No,DSL,115.33,1037.97,No,One Year
+0595-TUV,Female,No,No,No,6,No,Fiber Optic,27.27,163.62,No,Month-to-Month
+0596-TUV,Female,No,No,Yes,29,Yes,No,39.91,1157.39,No,One Year
+0597-TUV,Male,No,No,Yes,58,Yes,Fiber Optic,54.78,3177.24,No,Month-to-Month
+0598-TUV,Female,No,No,Yes,17,No,No,82.02,1394.34,Yes,Month-to-Month
+0599-TUV,Male,No,Yes,No,16,Yes,Fiber Optic,74.48,1191.68,Yes,Two Year
+0600-LMNO,Female,Yes,No,No,3,No,No,32.56,97.68,Yes,Two Year
+0601-PQRS,Male,Yes,Yes,No,21,Yes,Fiber Optic,48.97,1028.37,Yes,Two Year
+0602-TUV,Male,No,Yes,Yes,64,Yes,No,43.88,2808.32,Yes,Month-to-Month
+0603-PQRS,Female,No,No,Yes,36,Yes,Fiber Optic,41.35,1488.6,No,Month-to-Month
+0604-LMNO,Male,No,Yes,No,62,No,No,61.11,3788.82,No,Month-to-Month
+0605-LMNO,Female,Yes,Yes,No,42,Yes,Fiber Optic,90.4,3796.8,Yes,One Year
+0606-PQRS,Female,Yes,Yes,No,42,No,DSL,41.75,1753.5,Yes,One Year
+0607-ABCD,Male,No,Yes,No,61,Yes,No,56.67,3456.87,Yes,Month-to-Month
+0608-WXYZ,Male,Yes,No,No,13,No,Fiber Optic,59.09,768.17,No,Two Year
+0609-ABCD,Female,Yes,No,Yes,11,Yes,No,117.65,1294.15,No,Two Year
+0610-ABCD,Male,No,No,Yes,54,No,No,115.47,6235.38,No,Two Year
+0611-ABCD,Male,Yes,No,Yes,16,No,Fiber Optic,100.01,1600.16,Yes,Month-to-Month
+0612-TUV,Male,Yes,No,No,8,No,No,44.17,353.36,Yes,Two Year
+0613-LMNO,Male,No,No,Yes,59,No,Fiber Optic,26.8,1581.2,Yes,Month-to-Month
+0614-ABCD,Male,Yes,No,Yes,57,No,DSL,51.69,2946.33,Yes,One Year
+0615-LMNO,Female,Yes,No,Yes,40,No,No,46.68,1867.2,No,Two Year
+0616-PQRS,Female,No,No,Yes,59,Yes,DSL,70.59,4164.81,Yes,One Year
+0617-WXYZ,Male,Yes,No,Yes,2,No,No,97.77,195.54,Yes,Two Year
+0618-PQRS,Male,Yes,Yes,No,10,No,No,105.83,1058.3,Yes,Month-to-Month
+0619-PQRS,Male,No,No,Yes,44,No,No,104.49,4597.56,No,Month-to-Month
+0620-TUV,Female,No,Yes,No,11,Yes,Fiber Optic,55.97,615.67,No,Month-to-Month
+0621-WXYZ,Male,No,Yes,No,2,Yes,DSL,88.72,177.44,Yes,Month-to-Month
+0622-PQRS,Female,Yes,Yes,No,50,Yes,No,51.28,2564.0,No,Two Year
+0623-PQRS,Female,No,Yes,No,12,No,Fiber Optic,26.09,313.08,No,One Year
+0624-WXYZ,Female,Yes,No,No,23,Yes,No,90.16,2073.68,No,Month-to-Month
+0625-WXYZ,Male,No,Yes,Yes,18,Yes,Fiber Optic,20.98,377.64,No,Two Year
+0626-PQRS,Female,Yes,No,Yes,62,No,No,60.92,3777.04,No,One Year
+0627-WXYZ,Male,No,No,No,62,No,DSL,52.94,3282.28,Yes,Month-to-Month
+0628-PQRS,Female,No,Yes,No,38,Yes,DSL,89.34,3394.92,Yes,One Year
+0629-PQRS,Male,No,No,No,67,No,No,96.62,6473.54,Yes,Month-to-Month
+0630-TUV,Female,No,Yes,Yes,38,No,Fiber Optic,50.41,1915.58,No,One Year
+0631-ABCD,Male,Yes,Yes,No,67,No,No,101.16,6777.72,No,One Year
+0632-PQRS,Female,No,No,Yes,61,No,Fiber Optic,49.39,3012.79,No,Month-to-Month
+0633-LMNO,Male,No,No,No,1,Yes,No,64.63,64.63,No,Two Year
+0634-ABCD,Male,Yes,Yes,Yes,45,No,Fiber Optic,92.7,4171.5,Yes,One Year
+0635-ABCD,Male,No,No,No,28,Yes,DSL,89.29,2500.12,Yes,Month-to-Month
+0636-ABCD,Male,Yes,No,Yes,21,Yes,No,118.74,2493.54,Yes,One Year
+0637-TUV,Female,No,No,No,13,Yes,DSL,42.52,552.76,Yes,One Year
+0638-PQRS,Female,No,Yes,Yes,27,Yes,DSL,86.23,2328.21,Yes,Two Year
+0639-TUV,Male,No,Yes,Yes,7,No,No,80.97,566.79,Yes,One Year
+0640-PQRS,Female,Yes,No,Yes,22,No,No,111.51,2453.22,No,One Year
+0641-TUV,Male,No,No,Yes,53,No,Fiber Optic,35.64,1888.92,No,Month-to-Month
+0642-TUV,Male,No,No,Yes,4,Yes,Fiber Optic,95.18,380.72,Yes,Month-to-Month
+0643-LMNO,Female,No,No,Yes,23,Yes,DSL,76.83,1767.09,No,Two Year
+0644-TUV,Male,Yes,No,Yes,70,Yes,Fiber Optic,47.47,3322.9,Yes,One Year
+0645-WXYZ,Male,Yes,Yes,No,33,No,Fiber Optic,67.44,2225.52,Yes,One Year
+0646-LMNO,Female,No,No,No,28,Yes,No,53.38,1494.64,No,One Year
+0647-TUV,Male,Yes,Yes,No,8,No,Fiber Optic,77.93,623.44,Yes,Two Year
+0648-ABCD,Male,No,No,No,1,No,DSL,108.9,108.9,Yes,One Year
+0649-WXYZ,Male,No,Yes,No,37,No,Fiber Optic,76.93,2846.41,Yes,Month-to-Month
+0650-WXYZ,Male,No,No,Yes,63,No,DSL,83.17,5239.71,No,Two Year
+0651-WXYZ,Female,No,Yes,Yes,22,Yes,No,71.87,1581.14,No,Month-to-Month
+0652-LMNO,Female,No,No,Yes,70,No,DSL,25.12,1758.4,No,Month-to-Month
+0653-TUV,Female,No,Yes,Yes,21,Yes,Fiber Optic,43.29,909.09,No,Two Year
+0654-TUV,Male,No,Yes,Yes,35,No,No,69.2,2422.0,Yes,Month-to-Month
+0655-ABCD,Male,Yes,Yes,No,5,Yes,Fiber Optic,51.02,255.1,No,One Year
+0656-ABCD,Female,Yes,Yes,No,60,Yes,No,38.18,2290.8,No,Two Year
+0657-WXYZ,Male,Yes,Yes,No,46,No,No,70.41,3238.86,No,Month-to-Month
+0658-ABCD,Male,Yes,Yes,No,50,No,Fiber Optic,52.28,2614.0,Yes,One Year
+0659-LMNO,Male,Yes,No,Yes,48,No,Fiber Optic,45.81,2198.88,No,One Year
+0660-TUV,Male,Yes,Yes,Yes,6,Yes,No,66.4,398.4,No,Month-to-Month
+0661-WXYZ,Female,Yes,No,Yes,56,No,No,33.33,1866.48,Yes,One Year
+0662-ABCD,Female,No,No,No,59,No,Fiber Optic,112.77,6653.43,Yes,Two Year
+0663-LMNO,Female,No,No,Yes,29,Yes,DSL,106.77,3096.33,Yes,Month-to-Month
+0664-LMNO,Male,No,No,No,71,No,Fiber Optic,90.76,6443.96,Yes,One Year
+0665-ABCD,Female,No,No,Yes,18,Yes,No,30.62,551.16,No,One Year
+0666-TUV,Female,Yes,Yes,Yes,2,No,Fiber Optic,97.59,195.18,Yes,Month-to-Month
+0667-ABCD,Male,Yes,Yes,No,8,Yes,DSL,100.8,806.4,No,Month-to-Month
+0668-WXYZ,Male,No,Yes,Yes,54,Yes,Fiber Optic,96.78,5226.12,No,Month-to-Month
+0669-ABCD,Female,No,No,Yes,38,No,No,31.4,1193.2,No,Month-to-Month
+0670-LMNO,Female,Yes,Yes,No,48,Yes,Fiber Optic,84.39,4050.72,No,Two Year
+0671-ABCD,Female,No,Yes,Yes,27,No,No,103.43,2792.61,No,Month-to-Month
+0672-TUV,Female,No,Yes,No,20,No,No,77.74,1554.8,Yes,Two Year
+0673-PQRS,Male,No,Yes,Yes,12,Yes,Fiber Optic,84.64,1015.68,No,Two Year
+0674-ABCD,Female,No,Yes,Yes,43,No,No,65.84,2831.12,No,Month-to-Month
+0675-TUV,Female,Yes,No,Yes,61,Yes,No,72.87,4445.07,No,Two Year
+0676-TUV,Male,No,Yes,Yes,31,Yes,DSL,23.44,726.64,Yes,Month-to-Month
+0677-LMNO,Female,No,No,Yes,61,Yes,DSL,83.9,5117.9,No,Month-to-Month
+0678-TUV,Male,Yes,No,Yes,67,Yes,DSL,28.14,1885.38,No,One Year
+0679-TUV,Male,Yes,No,Yes,35,Yes,DSL,63.5,2222.5,Yes,Month-to-Month
+0680-TUV,Male,No,No,Yes,15,Yes,No,49.27,739.05,No,One Year
+0681-TUV,Female,Yes,No,No,16,Yes,Fiber Optic,74.54,1192.64,No,Two Year
+0682-WXYZ,Female,No,Yes,No,13,Yes,No,33.34,433.42,Yes,One Year
+0683-WXYZ,Male,No,Yes,Yes,35,No,No,89.16,3120.6,No,Two Year
+0684-LMNO,Female,Yes,Yes,Yes,59,No,No,99.5,5870.5,No,Month-to-Month
+0685-ABCD,Female,No,No,No,21,Yes,Fiber Optic,36.34,763.14,No,Two Year
+0686-TUV,Male,No,Yes,Yes,54,No,DSL,30.43,1643.22,No,Two Year
+0687-ABCD,Male,No,Yes,Yes,30,No,No,34.55,1036.5,No,Month-to-Month
+0688-ABCD,Female,No,No,No,48,No,No,107.71,5170.08,Yes,Two Year
+0689-LMNO,Male,Yes,No,Yes,35,No,DSL,72.82,2548.7,Yes,Month-to-Month
+0690-TUV,Female,Yes,No,Yes,38,No,No,66.73,2535.74,Yes,One Year
+0691-TUV,Female,No,No,No,31,No,Fiber Optic,30.67,950.77,No,Month-to-Month
+0692-PQRS,Female,Yes,Yes,Yes,24,Yes,No,84.96,2039.04,No,Month-to-Month
+0693-ABCD,Female,No,No,Yes,49,No,No,106.8,5233.2,No,Two Year
+0694-ABCD,Male,No,No,No,32,No,DSL,102.82,3290.24,Yes,One Year
+0695-WXYZ,Male,No,Yes,Yes,55,No,No,82.61,4543.55,No,Month-to-Month
+0696-PQRS,Male,No,Yes,No,58,No,No,27.53,1596.74,No,One Year
+0697-WXYZ,Male,No,No,Yes,3,Yes,Fiber Optic,31.24,93.72,No,One Year
+0698-WXYZ,Female,Yes,Yes,Yes,69,Yes,DSL,24.93,1720.17,Yes,Two Year
+0699-WXYZ,Female,No,No,No,10,Yes,DSL,45.75,457.5,Yes,Month-to-Month
+0700-LMNO,Male,Yes,No,No,25,Yes,Fiber Optic,33.57,839.25,No,Two Year
+0701-LMNO,Female,Yes,Yes,Yes,68,No,No,46.0,3128.0,No,Month-to-Month
+0702-WXYZ,Female,No,Yes,No,61,Yes,DSL,58.51,3569.11,No,One Year
+0703-PQRS,Female,No,No,No,29,Yes,DSL,114.3,3314.7,Yes,Month-to-Month
+0704-ABCD,Male,No,No,Yes,19,Yes,No,81.04,1539.76,Yes,Month-to-Month
+0705-PQRS,Male,No,No,Yes,43,Yes,No,103.5,4450.5,Yes,One Year
+0706-TUV,Male,No,Yes,Yes,66,No,DSL,91.04,6008.64,No,One Year
+0707-LMNO,Female,Yes,No,No,61,Yes,No,31.25,1906.25,Yes,Month-to-Month
+0708-ABCD,Male,No,No,No,43,No,DSL,93.59,4024.37,No,Two Year
+0709-ABCD,Male,No,No,No,25,Yes,No,47.51,1187.75,No,Month-to-Month
+0710-TUV,Male,Yes,No,No,20,No,No,83.91,1678.2,Yes,One Year
+0711-TUV,Male,Yes,No,Yes,48,No,Fiber Optic,54.1,2596.8,No,Two Year
+0712-WXYZ,Male,No,Yes,No,24,Yes,No,119.77,2874.48,Yes,One Year
+0713-LMNO,Male,Yes,No,Yes,11,Yes,Fiber Optic,46.36,509.96,No,One Year
+0714-LMNO,Female,No,No,No,55,Yes,No,47.91,2635.05,No,Two Year
+0715-PQRS,Female,Yes,No,Yes,28,Yes,DSL,113.07,3165.96,Yes,One Year
+0716-WXYZ,Male,Yes,No,Yes,69,No,DSL,22.46,1549.74,No,One Year
+0717-WXYZ,Male,No,Yes,Yes,63,No,No,89.67,5649.21,No,One Year
+0718-WXYZ,Female,Yes,Yes,No,59,Yes,No,92.53,5459.27,No,One Year
+0719-WXYZ,Female,Yes,Yes,Yes,5,Yes,DSL,103.64,518.2,No,One Year
+0720-LMNO,Male,Yes,No,Yes,51,No,No,117.44,5989.44,No,One Year
+0721-LMNO,Male,Yes,No,No,21,Yes,Fiber Optic,117.56,2468.76,No,One Year
+0722-WXYZ,Male,Yes,Yes,Yes,12,No,Fiber Optic,26.53,318.36,No,One Year
+0723-PQRS,Male,Yes,Yes,No,50,Yes,Fiber Optic,102.18,5109.0,No,One Year
+0724-ABCD,Female,No,Yes,No,4,No,Fiber Optic,84.63,338.52,Yes,Month-to-Month
+0725-ABCD,Male,No,No,Yes,42,No,Fiber Optic,84.73,3558.66,Yes,Month-to-Month
+0726-PQRS,Male,Yes,No,Yes,38,No,No,32.83,1247.54,No,One Year
+0727-WXYZ,Male,No,Yes,No,25,No,No,85.02,2125.5,No,Month-to-Month
+0728-LMNO,Male,No,Yes,Yes,14,No,Fiber Optic,118.25,1655.5,Yes,Two Year
+0729-ABCD,Female,No,Yes,No,32,Yes,No,111.18,3557.76,No,Month-to-Month
+0730-TUV,Female,Yes,No,No,11,No,No,63.91,703.01,Yes,One Year
+0731-TUV,Female,No,No,No,61,Yes,Fiber Optic,23.99,1463.39,Yes,One Year
+0732-PQRS,Male,Yes,No,Yes,18,No,No,56.23,1012.14,Yes,Month-to-Month
+0733-WXYZ,Male,No,Yes,No,27,No,No,102.64,2771.28,No,One Year
+0734-ABCD,Female,Yes,Yes,Yes,55,Yes,No,90.15,4958.25,No,Two Year
+0735-WXYZ,Male,Yes,No,Yes,54,Yes,Fiber Optic,65.93,3560.22,No,Two Year
+0736-ABCD,Male,No,Yes,Yes,21,Yes,No,25.51,535.71,Yes,One Year
+0737-PQRS,Female,No,No,Yes,44,Yes,DSL,62.69,2758.36,Yes,Two Year
+0738-PQRS,Female,Yes,Yes,No,5,No,DSL,66.9,334.5,Yes,Two Year
+0739-TUV,Female,No,Yes,Yes,41,Yes,Fiber Optic,112.86,4627.26,No,Month-to-Month
+0740-WXYZ,Female,No,Yes,No,59,No,DSL,84.11,4962.49,Yes,Two Year
+0741-TUV,Male,No,Yes,No,54,Yes,Fiber Optic,51.17,2763.18,Yes,Month-to-Month
+0742-WXYZ,Male,Yes,No,Yes,22,Yes,DSL,72.53,1595.66,No,One Year
+0743-TUV,Female,Yes,Yes,No,65,No,DSL,26.61,1729.65,Yes,Month-to-Month
+0744-LMNO,Male,No,No,No,64,No,DSL,117.26,7504.64,Yes,One Year
+0745-LMNO,Female,No,No,Yes,71,Yes,Fiber Optic,56.01,3976.71,No,One Year
+0746-LMNO,Female,No,No,No,4,No,Fiber Optic,67.79,271.16,No,One Year
+0747-LMNO,Male,Yes,Yes,No,65,No,No,55.53,3609.45,Yes,One Year
+0748-ABCD,Female,Yes,No,No,15,No,Fiber Optic,88.25,1323.75,No,One Year
+0749-LMNO,Male,No,No,No,22,No,DSL,86.22,1896.84,Yes,Month-to-Month
+0750-PQRS,Male,No,No,Yes,47,No,DSL,91.53,4301.91,No,One Year
+0751-PQRS,Male,No,Yes,No,46,No,Fiber Optic,46.81,2153.26,Yes,Two Year
+0752-ABCD,Male,No,Yes,No,14,No,Fiber Optic,51.57,721.98,No,Two Year
+0753-LMNO,Female,No,No,No,50,No,Fiber Optic,32.53,1626.5,Yes,One Year
+0754-LMNO,Male,No,Yes,No,20,Yes,No,85.55,1711.0,No,Two Year
+0755-LMNO,Female,Yes,No,Yes,50,No,DSL,23.98,1199.0,No,Month-to-Month
+0756-TUV,Female,No,No,No,33,Yes,No,79.77,2632.41,No,Month-to-Month
+0757-WXYZ,Female,Yes,Yes,Yes,59,No,No,106.97,6311.23,No,One Year
+0758-TUV,Female,No,No,No,43,No,DSL,109.08,4690.44,No,One Year
+0759-WXYZ,Male,No,Yes,Yes,12,No,DSL,64.9,778.8,No,One Year
+0760-LMNO,Male,Yes,Yes,Yes,40,No,Fiber Optic,65.93,2637.2,No,Two Year
+0761-LMNO,Female,Yes,No,Yes,20,Yes,Fiber Optic,27.7,554.0,Yes,Two Year
+0762-TUV,Female,Yes,Yes,Yes,38,Yes,No,87.08,3309.04,Yes,Month-to-Month
+0763-TUV,Male,Yes,Yes,Yes,3,No,Fiber Optic,102.13,306.39,No,Two Year
+0764-WXYZ,Female,No,No,No,28,Yes,Fiber Optic,44.47,1245.16,No,Month-to-Month
+0765-PQRS,Male,Yes,No,No,56,No,DSL,62.13,3479.28,Yes,Two Year
+0766-WXYZ,Female,No,Yes,No,13,No,DSL,103.88,1350.44,Yes,Month-to-Month
+0767-TUV,Male,Yes,Yes,Yes,66,Yes,Fiber Optic,107.71,7108.86,No,One Year
+0768-TUV,Female,No,No,No,37,Yes,DSL,44.32,1639.84,Yes,Two Year
+0769-ABCD,Female,No,Yes,Yes,49,No,Fiber Optic,75.06,3677.94,Yes,Month-to-Month
+0770-TUV,Male,No,Yes,Yes,66,No,DSL,39.25,2590.5,No,Two Year
+0771-ABCD,Female,No,Yes,No,36,Yes,DSL,30.19,1086.84,No,One Year
+0772-PQRS,Female,No,Yes,No,54,No,DSL,111.11,5999.94,No,Month-to-Month
+0773-WXYZ,Male,No,Yes,Yes,26,Yes,DSL,102.05,2653.3,Yes,Two Year
+0774-WXYZ,Female,Yes,Yes,Yes,40,No,Fiber Optic,96.0,3840.0,No,Two Year
+0775-ABCD,Male,No,Yes,No,43,No,No,24.88,1069.84,No,One Year
+0776-WXYZ,Male,Yes,No,No,22,Yes,DSL,104.37,2296.14,Yes,One Year
+0777-TUV,Female,Yes,No,No,20,Yes,Fiber Optic,63.8,1276.0,No,Month-to-Month
+0778-LMNO,Female,No,No,No,8,Yes,Fiber Optic,54.24,433.92,Yes,Two Year
+0779-ABCD,Female,Yes,No,Yes,29,No,DSL,74.65,2164.85,Yes,Two Year
+0780-WXYZ,Female,No,No,No,40,No,No,29.14,1165.6,Yes,One Year
+0781-ABCD,Female,Yes,Yes,No,30,No,DSL,95.66,2869.8,Yes,One Year
+0782-ABCD,Female,No,Yes,No,55,No,Fiber Optic,78.24,4303.2,Yes,Month-to-Month
+0783-LMNO,Female,Yes,Yes,Yes,16,Yes,No,38.66,618.56,Yes,Two Year
+0784-TUV,Male,No,Yes,Yes,46,No,Fiber Optic,38.82,1785.72,No,Two Year
+0785-ABCD,Female,No,No,Yes,62,No,DSL,38.42,2382.04,No,Month-to-Month
+0786-WXYZ,Male,No,Yes,Yes,7,No,No,25.7,179.9,No,Month-to-Month
+0787-PQRS,Female,No,Yes,No,45,Yes,Fiber Optic,78.78,3545.1,Yes,One Year
+0788-ABCD,Female,Yes,No,Yes,59,No,Fiber Optic,104.03,6137.77,No,One Year
+0789-ABCD,Male,No,Yes,No,56,No,Fiber Optic,21.75,1218.0,Yes,Month-to-Month
+0790-LMNO,Female,Yes,Yes,No,48,Yes,DSL,24.9,1195.2,No,Month-to-Month
+0791-TUV,Female,Yes,No,No,27,No,No,77.28,2086.56,Yes,Two Year
+0792-PQRS,Male,Yes,Yes,No,53,No,DSL,101.95,5403.35,No,Month-to-Month
+0793-WXYZ,Female,No,Yes,Yes,35,Yes,DSL,52.67,1843.45,Yes,Month-to-Month
+0794-PQRS,Female,Yes,Yes,Yes,51,No,DSL,54.96,2802.96,No,Two Year
+0795-WXYZ,Female,Yes,Yes,Yes,37,No,No,79.63,2946.31,Yes,Month-to-Month
+0796-TUV,Male,Yes,Yes,No,57,No,DSL,47.42,2702.94,No,One Year
+0797-WXYZ,Female,No,No,No,8,Yes,DSL,22.66,181.28,Yes,One Year
+0798-LMNO,Female,No,No,No,20,No,DSL,93.52,1870.4,No,Two Year
+0799-LMNO,Female,Yes,No,No,53,No,DSL,82.56,4375.68,No,Month-to-Month
+0800-LMNO,Female,No,No,No,12,Yes,Fiber Optic,78.08,936.96,No,One Year
+0801-LMNO,Male,No,No,Yes,49,Yes,DSL,94.17,4614.33,Yes,One Year
+0802-PQRS,Male,Yes,No,No,17,No,Fiber Optic,87.52,1487.84,Yes,One Year
+0803-TUV,Female,Yes,Yes,Yes,64,No,DSL,40.59,2597.76,Yes,One Year
+0804-WXYZ,Female,No,No,No,42,No,No,55.25,2320.5,Yes,Month-to-Month
+0805-WXYZ,Male,Yes,No,No,29,No,Fiber Optic,32.61,945.69,Yes,Month-to-Month
+0806-LMNO,Male,No,Yes,Yes,19,Yes,Fiber Optic,32.99,626.81,No,Month-to-Month
+0807-LMNO,Female,No,Yes,Yes,11,No,Fiber Optic,87.62,963.82,Yes,Month-to-Month
+0808-ABCD,Male,No,No,No,50,Yes,Fiber Optic,105.86,5293.0,No,One Year
+0809-TUV,Female,No,Yes,No,71,Yes,No,116.27,8255.17,No,Two Year
+0810-PQRS,Male,No,No,No,58,No,DSL,82.83,4804.14,Yes,Two Year
+0811-WXYZ,Male,No,Yes,No,34,No,Fiber Optic,38.41,1305.94,No,One Year
+0812-ABCD,Male,Yes,No,Yes,20,Yes,No,30.57,611.4,Yes,One Year
+0813-ABCD,Male,Yes,Yes,No,50,Yes,Fiber Optic,101.29,5064.5,Yes,Two Year
+0814-WXYZ,Female,No,Yes,Yes,10,No,DSL,77.88,778.8,Yes,Two Year
+0815-PQRS,Male,No,No,No,32,Yes,Fiber Optic,81.83,2618.56,No,One Year
+0816-ABCD,Male,No,No,Yes,52,No,No,98.15,5103.8,Yes,One Year
+0817-ABCD,Female,Yes,No,Yes,15,No,DSL,90.33,1354.95,Yes,Month-to-Month
+0818-TUV,Male,No,No,No,3,Yes,No,103.45,310.35,Yes,Month-to-Month
+0819-PQRS,Male,Yes,No,Yes,37,Yes,DSL,25.62,947.94,No,Two Year
+0820-ABCD,Female,No,Yes,No,40,No,DSL,94.75,3790.0,Yes,One Year
+0821-PQRS,Male,No,No,Yes,40,Yes,DSL,105.09,4203.6,No,Two Year
+0822-WXYZ,Female,Yes,No,No,56,No,Fiber Optic,48.61,2722.16,No,Month-to-Month
+0823-LMNO,Female,Yes,Yes,Yes,23,No,No,84.04,1932.92,Yes,Month-to-Month
+0824-ABCD,Female,No,Yes,No,11,No,No,51.42,565.62,No,Two Year
+0825-TUV,Female,No,No,No,64,Yes,No,115.8,7411.2,No,Month-to-Month
+0826-WXYZ,Male,No,Yes,Yes,8,No,DSL,23.34,186.72,Yes,One Year
+0827-PQRS,Female,Yes,Yes,Yes,56,No,Fiber Optic,77.98,4366.88,Yes,Two Year
+0828-WXYZ,Male,Yes,No,Yes,60,No,DSL,36.65,2199.0,Yes,One Year
+0829-ABCD,Male,Yes,Yes,Yes,10,No,No,91.22,912.2,No,One Year
+0830-PQRS,Male,Yes,Yes,No,39,No,Fiber Optic,37.59,1466.01,Yes,Month-to-Month
+0831-LMNO,Male,Yes,No,Yes,28,No,Fiber Optic,43.54,1219.12,No,One Year
+0832-WXYZ,Male,Yes,No,No,49,No,Fiber Optic,69.44,3402.56,No,Two Year
+0833-ABCD,Male,No,Yes,Yes,36,No,No,111.48,4013.28,No,One Year
+0834-TUV,Male,No,Yes,No,13,No,Fiber Optic,41.17,535.21,No,One Year
+0835-PQRS,Male,Yes,No,No,36,No,Fiber Optic,34.42,1239.12,No,One Year
+0836-WXYZ,Male,No,Yes,No,26,No,DSL,95.9,2493.4,Yes,One Year
+0837-WXYZ,Male,No,Yes,No,4,Yes,DSL,70.06,280.24,Yes,One Year
+0838-LMNO,Female,Yes,Yes,Yes,64,No,Fiber Optic,111.18,7115.52,No,Month-to-Month
+0839-LMNO,Female,No,No,Yes,38,No,Fiber Optic,34.66,1317.08,No,Two Year
+0840-TUV,Female,Yes,Yes,No,22,No,DSL,84.59,1860.98,Yes,Month-to-Month
+0841-TUV,Male,Yes,Yes,Yes,2,Yes,DSL,43.29,86.58,Yes,Two Year
+0842-ABCD,Female,No,No,Yes,31,No,DSL,35.68,1106.08,No,Two Year
+0843-ABCD,Female,Yes,Yes,No,11,Yes,No,88.34,971.74,No,Two Year
+0844-TUV,Female,Yes,Yes,Yes,46,No,No,79.37,3651.02,Yes,Two Year
+0845-TUV,Male,Yes,No,Yes,62,No,DSL,95.48,5919.76,Yes,Two Year
+0846-PQRS,Male,Yes,No,Yes,69,Yes,Fiber Optic,50.95,3515.55,No,One Year
+0847-LMNO,Male,Yes,No,No,64,No,DSL,64.8,4147.2,Yes,Month-to-Month
+0848-ABCD,Male,Yes,No,Yes,10,Yes,No,60.55,605.5,Yes,Month-to-Month
+0849-LMNO,Female,Yes,Yes,No,40,Yes,Fiber Optic,118.41,4736.4,No,One Year
+0850-LMNO,Female,Yes,Yes,Yes,24,No,No,49.22,1181.28,No,Two Year
+0851-TUV,Female,No,No,Yes,44,No,Fiber Optic,49.48,2177.12,No,Month-to-Month
+0852-PQRS,Female,No,No,Yes,60,No,No,55.45,3327.0,Yes,One Year
+0853-WXYZ,Male,No,Yes,No,62,No,Fiber Optic,76.46,4740.52,No,One Year
+0854-PQRS,Male,Yes,No,No,17,Yes,Fiber Optic,45.23,768.91,Yes,Month-to-Month
+0855-PQRS,Male,Yes,Yes,Yes,65,Yes,Fiber Optic,111.53,7249.45,No,Month-to-Month
+0856-LMNO,Female,No,No,No,57,No,Fiber Optic,46.57,2654.49,No,Two Year
+0857-PQRS,Male,No,Yes,Yes,55,Yes,No,109.58,6026.9,Yes,Two Year
+0858-ABCD,Male,No,No,No,53,Yes,No,30.35,1608.55,Yes,Month-to-Month
+0859-LMNO,Female,Yes,No,No,56,No,Fiber Optic,85.66,4796.96,No,Two Year
+0860-ABCD,Female,No,Yes,Yes,9,Yes,Fiber Optic,110.7,996.3,No,One Year
+0861-WXYZ,Male,No,No,Yes,22,Yes,No,36.87,811.14,Yes,Two Year
+0862-LMNO,Male,Yes,Yes,Yes,13,No,Fiber Optic,116.83,1518.79,No,Two Year
+0863-WXYZ,Male,No,Yes,Yes,48,Yes,Fiber Optic,65.29,3133.92,Yes,One Year
+0864-LMNO,Male,Yes,Yes,No,18,No,Fiber Optic,114.57,2062.26,Yes,Two Year
+0865-TUV,Male,Yes,Yes,No,40,Yes,DSL,87.68,3507.2,No,One Year
+0866-PQRS,Male,Yes,Yes,No,17,No,Fiber Optic,50.16,852.72,Yes,Two Year
+0867-TUV,Female,No,No,Yes,15,Yes,DSL,38.83,582.45,Yes,Month-to-Month
+0868-WXYZ,Female,No,No,Yes,15,Yes,Fiber Optic,50.37,755.55,Yes,Two Year
+0869-PQRS,Female,Yes,Yes,No,63,No,No,29.3,1845.9,No,Month-to-Month
+0870-LMNO,Male,No,No,Yes,39,No,DSL,34.39,1341.21,Yes,Month-to-Month
+0871-PQRS,Female,No,Yes,No,13,No,DSL,30.47,396.11,No,Month-to-Month
+0872-ABCD,Male,No,No,No,32,No,Fiber Optic,62.29,1993.28,No,Month-to-Month
+0873-PQRS,Male,No,No,No,9,Yes,Fiber Optic,99.56,896.04,No,Month-to-Month
+0874-ABCD,Female,Yes,No,No,40,Yes,DSL,34.14,1365.6,Yes,One Year
+0875-PQRS,Male,No,No,No,20,Yes,No,33.03,660.6,Yes,One Year
+0876-ABCD,Male,Yes,Yes,Yes,63,No,No,84.34,5313.42,No,One Year
+0877-WXYZ,Female,Yes,Yes,Yes,44,Yes,Fiber Optic,39.72,1747.68,No,Month-to-Month
+0878-TUV,Female,No,No,Yes,38,Yes,No,29.76,1130.88,Yes,Two Year
+0879-LMNO,Female,Yes,No,No,60,No,No,36.68,2200.8,No,One Year
+0880-PQRS,Male,No,Yes,No,71,No,Fiber Optic,112.37,7978.27,No,Two Year
+0881-TUV,Female,No,No,No,48,Yes,No,102.15,4903.2,Yes,Two Year
+0882-LMNO,Female,Yes,Yes,No,18,No,Fiber Optic,55.41,997.38,No,Month-to-Month
+0883-LMNO,Male,Yes,Yes,Yes,16,Yes,DSL,85.58,1369.28,Yes,Month-to-Month
+0884-ABCD,Female,Yes,Yes,Yes,55,Yes,Fiber Optic,73.73,4055.15,Yes,Month-to-Month
+0885-WXYZ,Female,Yes,No,No,39,No,DSL,87.71,3420.69,No,One Year
+0886-WXYZ,Female,No,Yes,No,68,Yes,DSL,88.27,6002.36,Yes,Month-to-Month
+0887-TUV,Male,No,No,No,59,No,No,82.87,4889.33,Yes,One Year
+0888-WXYZ,Male,No,Yes,Yes,62,No,No,46.61,2889.82,Yes,One Year
+0889-PQRS,Male,Yes,No,Yes,13,Yes,No,23.9,310.7,No,One Year
+0890-WXYZ,Male,Yes,No,Yes,6,Yes,Fiber Optic,65.56,393.36,No,One Year
+0891-TUV,Female,Yes,No,No,60,Yes,No,109.1,6546.0,No,Month-to-Month
+0892-WXYZ,Male,No,Yes,No,14,No,DSL,76.95,1077.3,Yes,One Year
+0893-PQRS,Male,Yes,Yes,Yes,54,Yes,No,103.24,5574.96,Yes,Month-to-Month
+0894-ABCD,Female,No,No,No,4,No,No,119.16,476.64,No,Month-to-Month
+0895-TUV,Female,Yes,No,Yes,39,No,Fiber Optic,36.36,1418.04,No,One Year
+0896-ABCD,Female,No,No,No,25,Yes,Fiber Optic,89.18,2229.5,Yes,Month-to-Month
+0897-ABCD,Male,No,Yes,Yes,32,No,DSL,87.43,2797.76,No,Two Year
+0898-ABCD,Male,Yes,Yes,No,59,Yes,Fiber Optic,118.0,6962.0,No,Month-to-Month
+0899-LMNO,Male,Yes,Yes,Yes,63,Yes,No,118.56,7469.28,No,Month-to-Month
+0900-LMNO,Female,No,Yes,Yes,38,Yes,Fiber Optic,88.67,3369.46,No,One Year
+0901-ABCD,Female,No,No,Yes,53,Yes,DSL,44.36,2351.08,No,One Year
+0902-TUV,Male,Yes,No,Yes,67,Yes,No,99.86,6690.62,Yes,Month-to-Month
+0903-PQRS,Female,Yes,Yes,Yes,28,Yes,DSL,30.7,859.6,No,One Year
+0904-PQRS,Female,No,Yes,Yes,3,Yes,Fiber Optic,98.07,294.21,No,Two Year
+0905-WXYZ,Female,Yes,No,No,22,No,Fiber Optic,111.02,2442.44,Yes,Two Year
+0906-TUV,Male,No,Yes,No,38,Yes,DSL,58.28,2214.64,Yes,One Year
+0907-LMNO,Female,No,Yes,No,62,No,No,83.06,5149.72,Yes,Month-to-Month
+0908-ABCD,Female,Yes,Yes,Yes,57,No,Fiber Optic,63.01,3591.57,Yes,Two Year
+0909-WXYZ,Male,Yes,Yes,Yes,6,No,Fiber Optic,63.78,382.68,No,Two Year
+0910-PQRS,Male,Yes,Yes,No,32,Yes,No,51.04,1633.28,No,Month-to-Month
+0911-LMNO,Female,Yes,Yes,Yes,10,No,Fiber Optic,96.21,962.1,No,One Year
+0912-LMNO,Female,Yes,No,Yes,3,No,DSL,113.62,340.86,No,Two Year
+0913-ABCD,Male,No,Yes,Yes,59,Yes,Fiber Optic,114.08,6730.72,Yes,Month-to-Month
+0914-PQRS,Male,No,Yes,Yes,49,Yes,Fiber Optic,37.48,1836.52,Yes,Month-to-Month
+0915-TUV,Female,Yes,No,Yes,59,No,No,107.47,6340.73,No,Two Year
+0916-LMNO,Female,Yes,No,No,31,Yes,DSL,93.74,2905.94,No,One Year
+0917-ABCD,Female,Yes,No,No,69,Yes,No,45.28,3124.32,No,Two Year
+0918-TUV,Female,No,Yes,No,62,Yes,Fiber Optic,26.73,1657.26,No,Month-to-Month
+0919-PQRS,Male,Yes,No,No,52,Yes,Fiber Optic,46.8,2433.6,Yes,Two Year
+0920-LMNO,Female,Yes,Yes,No,41,No,No,111.22,4560.02,No,One Year
+0921-TUV,Female,No,Yes,Yes,31,Yes,No,83.32,2582.92,Yes,Month-to-Month
+0922-TUV,Male,No,Yes,Yes,22,Yes,No,92.11,2026.42,Yes,One Year
+0923-TUV,Female,Yes,No,Yes,4,Yes,DSL,45.72,182.88,Yes,Two Year
+0924-LMNO,Male,Yes,No,Yes,13,No,Fiber Optic,91.94,1195.22,Yes,Two Year
+0925-LMNO,Female,Yes,No,No,45,No,No,22.81,1026.45,No,One Year
+0926-WXYZ,Female,No,No,No,42,Yes,Fiber Optic,57.53,2416.26,No,Two Year
+0927-PQRS,Male,Yes,No,No,49,Yes,DSL,82.68,4051.32,No,One Year
+0928-ABCD,Male,Yes,Yes,Yes,20,No,DSL,34.61,692.2,No,Two Year
+0929-TUV,Female,Yes,Yes,No,54,Yes,DSL,102.3,5524.2,Yes,One Year
+0930-WXYZ,Female,No,Yes,Yes,36,Yes,DSL,43.5,1566.0,Yes,One Year
+0931-ABCD,Female,No,Yes,No,1,No,Fiber Optic,85.23,85.23,Yes,Month-to-Month
+0932-WXYZ,Male,Yes,No,No,15,Yes,DSL,60.52,907.8,No,Month-to-Month
+0933-LMNO,Female,Yes,No,Yes,17,Yes,DSL,79.6,1353.2,Yes,One Year
+0934-TUV,Male,No,Yes,Yes,24,No,No,30.75,738.0,Yes,Two Year
+0935-ABCD,Male,No,No,No,58,No,DSL,21.69,1258.02,Yes,Two Year
+0936-ABCD,Female,No,No,No,23,Yes,No,110.96,2552.08,Yes,Two Year
+0937-ABCD,Male,No,Yes,Yes,46,No,DSL,46.96,2160.16,No,One Year
+0938-ABCD,Female,No,Yes,No,8,Yes,DSL,101.97,815.76,Yes,One Year
+0939-ABCD,Female,No,No,No,59,Yes,No,119.94,7076.46,Yes,One Year
+0940-WXYZ,Female,No,No,Yes,59,Yes,DSL,41.14,2427.26,No,One Year
+0941-TUV,Female,No,Yes,No,13,No,Fiber Optic,46.52,604.76,No,Month-to-Month
+0942-LMNO,Female,No,Yes,Yes,39,No,Fiber Optic,86.29,3365.31,No,One Year
+0943-LMNO,Male,Yes,Yes,No,28,Yes,DSL,116.54,3263.12,Yes,Two Year
+0944-LMNO,Male,Yes,No,Yes,61,Yes,Fiber Optic,111.58,6806.38,Yes,Month-to-Month
+0945-LMNO,Female,Yes,Yes,No,16,No,No,70.29,1124.64,Yes,Two Year
+0946-WXYZ,Female,No,Yes,Yes,2,No,DSL,99.51,199.02,Yes,One Year
+0947-PQRS,Male,Yes,No,No,17,No,DSL,33.57,570.69,No,Month-to-Month
+0948-TUV,Male,No,No,Yes,30,Yes,No,117.74,3532.2,Yes,One Year
+0949-ABCD,Male,No,No,No,13,No,No,116.44,1513.72,Yes,Month-to-Month
+0950-PQRS,Male,Yes,No,No,13,No,No,36.37,472.81,No,Two Year
+0951-LMNO,Female,No,No,No,43,Yes,DSL,49.94,2147.42,No,One Year
+0952-PQRS,Female,Yes,Yes,No,21,Yes,No,30.02,630.42,No,One Year
+0953-TUV,Male,Yes,Yes,No,55,Yes,No,47.17,2594.35,Yes,Month-to-Month
+0954-ABCD,Female,Yes,No,No,40,No,Fiber Optic,101.6,4064.0,Yes,Month-to-Month
+0955-ABCD,Male,No,No,No,15,Yes,Fiber Optic,57.83,867.45,Yes,One Year
+0956-TUV,Female,Yes,No,No,52,Yes,DSL,28.84,1499.68,Yes,Month-to-Month
+0957-TUV,Male,No,No,No,53,Yes,Fiber Optic,54.22,2873.66,Yes,One Year
+0958-LMNO,Female,Yes,No,Yes,52,Yes,Fiber Optic,118.14,6143.28,No,Month-to-Month
+0959-ABCD,Male,Yes,Yes,Yes,30,No,No,82.97,2489.1,No,Two Year
+0960-PQRS,Male,Yes,Yes,No,33,Yes,No,61.62,2033.46,Yes,Month-to-Month
+0961-WXYZ,Female,No,Yes,Yes,57,No,Fiber Optic,36.65,2089.05,Yes,Two Year
+0962-WXYZ,Male,No,Yes,No,52,No,Fiber Optic,118.62,6168.24,Yes,Month-to-Month
+0963-TUV,Female,No,No,No,9,No,Fiber Optic,102.08,918.72,Yes,Month-to-Month
+0964-LMNO,Female,Yes,Yes,Yes,54,Yes,DSL,48.15,2600.1,Yes,One Year
+0965-WXYZ,Male,Yes,No,No,1,No,DSL,27.01,27.01,No,Month-to-Month
+0966-ABCD,Female,No,No,No,44,Yes,DSL,25.66,1129.04,No,Month-to-Month
+0967-TUV,Female,No,No,Yes,9,Yes,Fiber Optic,32.04,288.36,No,Two Year
+0968-PQRS,Female,No,Yes,Yes,32,Yes,Fiber Optic,78.08,2498.56,Yes,Month-to-Month
+0969-TUV,Female,No,No,No,15,No,DSL,112.88,1693.2,Yes,One Year
+0970-PQRS,Female,No,Yes,Yes,12,Yes,DSL,69.67,836.04,No,Two Year
+0971-TUV,Male,No,Yes,Yes,57,Yes,Fiber Optic,104.29,5944.53,No,One Year
+0972-TUV,Female,Yes,No,No,8,Yes,No,64.59,516.72,Yes,One Year
+0973-TUV,Female,No,No,Yes,27,No,DSL,90.86,2453.22,No,One Year
+0974-PQRS,Female,Yes,No,Yes,62,No,Fiber Optic,93.19,5777.78,No,One Year
+0975-PQRS,Female,Yes,Yes,No,12,No,Fiber Optic,37.4,448.8,Yes,Two Year
+0976-TUV,Female,No,No,Yes,65,Yes,No,56.12,3647.8,No,Month-to-Month
+0977-WXYZ,Male,No,Yes,Yes,42,No,Fiber Optic,83.73,3516.66,No,One Year
+0978-LMNO,Female,Yes,No,No,62,Yes,Fiber Optic,27.07,1678.34,No,Two Year
+0979-LMNO,Male,No,No,No,11,Yes,DSL,56.15,617.65,Yes,One Year
+0980-LMNO,Male,No,Yes,No,43,No,DSL,73.48,3159.64,No,Month-to-Month
+0981-PQRS,Male,Yes,Yes,Yes,17,Yes,No,119.62,2033.54,No,Two Year
+0982-PQRS,Male,Yes,Yes,No,32,No,No,67.45,2158.4,No,Two Year
+0983-WXYZ,Female,Yes,Yes,No,40,Yes,Fiber Optic,101.61,4064.4,Yes,Month-to-Month
+0984-LMNO,Male,No,Yes,Yes,23,No,DSL,63.21,1453.83,Yes,Two Year
+0985-LMNO,Male,Yes,Yes,No,56,Yes,No,99.64,5579.84,No,Month-to-Month
+0986-TUV,Female,No,No,No,6,Yes,No,79.54,477.24,Yes,Two Year
+0987-PQRS,Female,Yes,No,No,50,Yes,No,108.66,5433.0,No,Two Year
+0988-LMNO,Female,Yes,Yes,No,37,Yes,Fiber Optic,61.09,2260.33,Yes,Month-to-Month
+0989-WXYZ,Male,Yes,No,Yes,64,Yes,DSL,80.43,5147.52,Yes,Month-to-Month
+0990-WXYZ,Female,No,Yes,No,54,No,No,83.0,4482.0,No,Two Year
+0991-LMNO,Female,No,No,No,49,Yes,DSL,61.74,3025.26,No,Two Year
+0992-PQRS,Male,Yes,No,Yes,11,No,No,34.43,378.73,No,Month-to-Month
+0993-WXYZ,Female,Yes,Yes,No,49,No,No,29.36,1438.64,Yes,Month-to-Month
+0994-TUV,Female,Yes,Yes,Yes,21,No,DSL,21.67,455.07,No,Two Year
+0995-WXYZ,Female,No,Yes,Yes,66,Yes,DSL,107.35,7085.1,Yes,Two Year
+0996-ABCD,Female,Yes,No,Yes,63,Yes,DSL,43.65,2749.95,Yes,Two Year
+0997-ABCD,Male,No,Yes,No,28,Yes,Fiber Optic,41.15,1152.2,No,Month-to-Month
+0998-PQRS,Female,Yes,No,Yes,17,No,No,93.6,1591.2,Yes,Two Year
+0999-LMNO,Female,Yes,Yes,Yes,6,Yes,Fiber Optic,52.0,312.0,No,One Year
